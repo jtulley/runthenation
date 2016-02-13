@@ -1,0 +1,166 @@
+/*
+Theme Name: WP Bootstrap
+Theme URI: http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial
+Description: A demo theme built to accompany the Treehouse blog post <a href="http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial">How to Build a WordPress Theme with Bootstrap</a>.
+Author: Zac Gordon
+Author URI: http://teamtreehouse.com/
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
+*/
+
+body { 
+    background-color: black;
+    color: red;
+    max-width: 900px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.row {
+    margin: 0px;
+}
+
+
+.navbar-opaque {
+    position: relative;
+}
+
+.navbar-opaque:after {
+  content: " ";
+  z-index: -1;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.footerblock {
+  position: absolute;
+  bottom: 0px;
+  padding: 0px;
+  padding-top: 10px;
+  color: white;
+  width: 100%;
+  max-width: 900px;
+}
+
+.footerimage {
+  position: absolute;
+  bottom: 0px;
+  z-index: -1;
+  width: vw;
+  padding: 0px;
+}
+
+.footerlefttext, .footermiddletext, .footerrighttext {
+  padding: 15px; 
+}
+
+@media screen and (min-width: 768px) {
+  .footerlefttext, .footermiddletext, .footerrighttext {
+    padding: 35px 15px 15px 15px; 
+ 	  min-height: 19rem;
+  }
+}
+
+.footercopyright {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  margin-bottom: 0px;
+  width: 20rem;
+  font-size: .9rem;
+}
+
+.footerhr {
+  padding: 0px;
+  padding-bottom: 5px;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+
+/*
+
+top banner bg color: 64 74 15 #24260a
+Green right under banner, blog post date and title, hr: #b6c132
+visited link, donate button blue: #46c2cc
+
+
+Bottom block:
+IT is 100% about raising awareness text: #2c7197
+bottom donate button blue: #2a739a
+background behind "The goal or this race" and donate box: #37c0c8
+
+Footer Picture:
+Timer "Record breaking begins" + "days / hours / minutes / seconds" text: #bcc732
+all other text: white
+hr white
+
+
+Causes page:
+St Judes Logo set to bg: #2a7399 this BG is over images
+www.stjude.org link: #f04e25
+2 divits after that link: #2a7399
+
+Crew Page: 
+John Wallace Name BG: #2a739a
+Patrick Hains Name BG: #37c0c8
+Vincent Antunez Name BG: #b6c132
+Laura Buitron Name BG: #efa320
+Krasse Gueorguiev Name BG: #f04f25
+
+Main Page:
+About Lisa Block BG: #23c7cd
+St Jude Cause BG: #efa320
+Heading to that section ("The cause") BG: #393636
+Every Step I take quote BG: #bcc732
+
+Lisa's Story:
+Lisas run is farm more... text color: #45c2cc possibly #37c0c8
+Came into life kicking quote text color: #f04f25
+
+LiveFeed:
+Episode 1 BG color: #b6c132
+Episode 2 BG color: #37c0c8
+Episode 3 BG color: #2a739a
+repeat these three
+Older Videos link text: #2a739a
+
+Press Page:
+Press title banner: white on #2a739a
+Section heading: #f04f25
+Link divits same: #f04f25
+
+
+Blog:
+Blog title banner: white on #b6c132
+blog entry date and title same: #b6c132
+
+
+Route:
+Lisa's run is more... text color #37c0c8
+
+Map surround: #2a739a
+Start text: #2a739a
+End Text: #f04f25
+
+
+infographic Lisa will attempt to break... BG: #d4e3eb
+*/
