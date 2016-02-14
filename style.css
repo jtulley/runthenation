@@ -62,14 +62,14 @@ html, body {
   color: white;
   width: 100%;
   max-width: 900px;
-  margin-bottom: -750px;
-  padding-bottom: -750px;
+  margin-bottom: -3050px;
+  padding-bottom: -3050px;
 }
 
 @media screen and (min-width: 768px) {
   .footerblock {
-    margin-bottom: -100px;
-    padding-bottom: -100px;
+    margin-bottom: -800px;
+    padding-bottom: -800px;
   }
 }
 
@@ -82,12 +82,17 @@ html, body {
 }
 
 .footerlefttext, .footermiddletext, .footerrighttext {
-  padding: 15px; 
+  padding: 1.1rem; 
+}
+
+.footermiddletext {
+  padding-top: 3.5rem;
+  min-height: 18rem; 
 }
 
 .footerlefttext > p {
   line-height: 1.8rem;
-  padding-left: 10px;
+  padding-left: 1.0rem;
 }
 
 .footerlefttext > p > a {
@@ -101,6 +106,75 @@ html, body {
 
 .footerrighttext > p > a {
   color: white;
+}
+
+.whiteblock {
+  background-color: white;
+  padding-top: 15px;
+  padding-left: 5px;
+  min-width: 242px;
+  min-height: 245px;
+}
+
+.orangeblock {
+  background-color: #efa320;
+  padding: 40px;
+  color: white;
+  min-height: 245px;
+}
+
+.orangeblock > a {
+  line-height: 4rem;
+  color: white;
+}
+
+.greenquoteblock {
+  background-color: #bcc732;
+  width: 100%;
+  padding: 20px;
+  color: white;
+}
+
+.darkgreyblock {
+  background-color: #393636;
+  width: 100%;
+  color: white;
+  font-size: 2.0rem;
+  padding: 10px;
+}
+
+.blueaboutblock {
+  background-color: #23c7cd;
+  color: white;
+  font-size: 1.2rem;
+  padding: 2rem;
+  padding-top: 1rem;
+}
+
+.blueaboutblock > h1 {
+  font-size: 3.0rem;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .blueaboutblock {
+    padding-top: 4.0rem;
+    min-height: 344px;
+  }
+}
+
+.normalquotetext {
+  font-size: 1.7rem;
+}
+
+.extralargequotetext {
+  font-size: 4.0rem;
+  line-height: 3.0rem;
+  font-weight: normal;
+}
+
+.extrasmallquotetext {
+  font-size: 0.8rem;
 }
 
 .goaltext {

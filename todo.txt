@@ -1,2 +1,3 @@
 Things todo:
 make square edges on buttons
+Transfer index.html footer changes into footer.html
