@@ -12,10 +12,13 @@ License URI: http://creativecommons.org/licenses/by-sa/3.0/
 
 This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
 */
+html {
+  overflow-y: auto;
+  overflow-x: auto;
+}
 
 body { 
     background-color: black;
-    color: red;
     max-width: 900px;
     font-weight: bold;
     margin-left: auto;
@@ -24,13 +27,11 @@ body {
 }
 
 html, body {
-  height: 100%;
+   height: 100%;
 }
 
 .container-fluid {
     padding: 0px;
-    min-height: 100%;
-    overflow: hidden;
 }
 
 .row {
@@ -47,38 +48,76 @@ html, body {
   z-index: -1;
   display: block;
   position: absolute;
-  height: 100%;
   top: 0;
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.5);
 }
 
-.footerblock {
-  position: absolute;
-  bottom: 0px;
-  padding: 0px;
-  padding-top: 10px;
+.maincontent {
+  padding-top: 360px;
   color: white;
   width: 100%;
   max-width: 900px;
-  margin-bottom: -3050px;
-  padding-bottom: -3050px;
 }
 
 @media screen and (min-width: 768px) {
-  .footerblock {
-    margin-bottom: -800px;
-    padding-bottom: -800px;
+  .maincontent {
+    padding-top: 0px;
   }
 }
 
-.footerimage {
+.topnav {
+  color: white;
   position: absolute;
-  bottom: 0px;
-  z-index: -1;
-  width: vw;
+  max-width: 900px;
+  width: 100%;
+  top: 0px;
+  background-color: black;
+  z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .topnav {
+    opacity: 0.5;
+  }
+}
+
+.navitemsrow {
   padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navitem {
+  border: 1px solid #404040;
+  background-color: #444444;
+  padding: 10px;
+  margin: 0px;
+  display: block;
+  clear: both;
+  line-height: 2.0rem;
+}
+
+@media screen and (min-width: 768px) {
+  .navitem {
+    background-color: black;
+    border: none;
+    padding: 0px;
+    padding-left: 10px;
+    display: inline-block;
+    clear: none;
+    line-height: 1.0rem;
+  }
+}
+
+.row {
+  padding: 0px;
+}
+
+.footerimage {
+   background: url("images/FooterLisaPicture_900.png") right bottom no-repeat;
+   background-size: 100%;
 }
 
 .footerlefttext, .footermiddletext, .footerrighttext {
