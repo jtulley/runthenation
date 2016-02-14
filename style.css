@@ -141,6 +141,36 @@ html, body {
   width: 70%;
 }
 
+#clockdiv {
+    display: inline-block;
+    font-weight: 100;
+}
+
+#clockdiv > p {
+    color: #bcc732;
+}
+
+#clockdiv > div {
+    padding: 0px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+#clockdiv div > span {
+    padding: 2px;
+    border-radius: 3px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 2.0rem;
+    display: inline-block;
+}
+
+.clocksmalltext {
+    padding-top: 5px;
+    font-size: 0.9rem;
+    color: #bcc732;
+}
+
 
 /*
 
