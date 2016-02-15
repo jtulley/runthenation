@@ -1,2 +1,4 @@
 Things todo:
 make square edges on buttons
+fix image links in footer to scale correctly
+fix image links in footer to not show current page's picture
