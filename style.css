@@ -314,12 +314,147 @@ a.readmore {
 }
 
 
+.livefeedlabelbanner {
+  background-color: #ff9c08;
+  color: white;
+  width: 100%;
+  font-size: 3rem;
+  padding: 0px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .livefeedlabelbanner {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.livefeedmainsection {
+  width: 100%;
+  background-color: white;
+  color: white;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0px;
+}
+
+.livefeedolderposts {
+  width: 100%;
+  background-color: white;
+  color: #393636;
+  font-size: 1rem;
+  padding-top: 0.9rem;
+  padding-bottom: 1.5rem;
+}
+
+.livefeedolderposts > a {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #b6c132;
+}
+
+.livefeedepisode1color {
+  background-color: #b6c132;
+}
+
+.livefeedepisode2color {
+  background-color: #37c0c8;
+}
+
+.livefeedepisode3color {
+  background-color: #2a739a;
+}
+
+.livefeedepisode {
+  padding-left: 1rem;
+  font-size: 1.1rem;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.livefeedepisodeimage {
+   padding: 0px;
+}
+
+.livefeedepisodetext {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .livefeedepisodeimage {
+     width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .livefeedepisode {
+     position: relative;
+     height: 282px;
+  }
+  .livefeedepisodeimage {
+     position: relative;
+     float: right;
+     padding: 0px;
+     height: 282px;
+  }
+  .livefeedepisodetext {
+    padding-top: 40px;
+  }
+}
+
+.livefeedepisodetitle {
+  font-size: 1.2rem;
+  line-height: 0.7rem;
+  padding: 0px;
+}
+
+.livefeedepisodetext > hr {
+  position: relative;
+  border-color: white;
+  width: 25%;
+  padding: 0px;
+}
+
+.livefeedepisodetext > p > a {
+  color: white;
+}
+
+.livefeedepisodetext > a {
+  color: white;
+}
+
+
+.livefeedepisodetext > img { /* social media icons */
+  padding-left: 5px;
+}
+
+.livefeedepisodetext > h1 {
+  font-size: 2.0rem;
+  font-weight: bold;
+  line-height: 1.0rem;
+  padding: 0px;
+  padding-bottom: 1.8rem;
+  margin: 0px;
+}
+
+.livefeedepisodeimage {
+}
+
+
+//repeat these three
+//Older Videos link text: #2a739a
+
 .bluetext {
   color: #37c0c8;
 }
 
 .orangetext {
-  color: #f04f25;
+  color: #ff9c08;
 }
 
 .whitetext {
@@ -343,7 +478,7 @@ a.readmore {
 }
 
 .orangeblock {
-  background-color: #efa320;
+  background-color: #ff9c08;
   padding: 40px;
   color: white;
   min-height: 245px;
@@ -560,12 +695,12 @@ Crew Page:
 John Wallace Name BG: #2a739a
 Patrick Hains Name BG: #37c0c8
 Vincent Antunez Name BG: #b6c132
-Laura Buitron Name BG: #efa320
+Laura Buitron Name BG: #ff9c08
 Krasse Gueorguiev Name BG: #f04f25
 
 Main Page:
 About Lisa Block BG: #23c7cd
-St Jude Cause BG: #efa320
+St Jude Cause BG: #ff9c08
 Heading to that section ("The cause") BG: #393636
 Every Step I take quote BG: #bcc732
 
