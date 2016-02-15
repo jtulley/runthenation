@@ -4,3 +4,4 @@ fix image links in footer to not show current page's picture
 Get st jude image banner on thecause.html put in place
 Interactive mileage / route map
 style visited and hover links
+why is the press page smaller??
