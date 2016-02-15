@@ -5,3 +5,6 @@ Get st jude image banner on thecause.html put in place
 Interactive mileage / route map
 style visited and hover links
 why is the press page smaller??
+fix 404, etc pages
+fix favicon
+fix print media
