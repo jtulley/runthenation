@@ -176,6 +176,65 @@ html, body {
   color: white;
 }
 
+.presslabelbanner {
+  background-color: #2a739a;
+  color: white;
+  width: 100%;
+  font-size: 3rem;
+  padding: 0px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .presslabelbanner {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.pressmainsection {
+  width: 100%;
+  background-color: white;
+  color: #393636;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pressmainsection > h1 {
+  color: #f04f25;
+  font-size: 1.9rem;
+  font-weight: bold;
+  line-height: 0.8rem;
+  padding-top: 0.5rem;
+}
+
+.pressmainsection > h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 0.8rem;
+}
+
+.pressmainsection > a {
+  font-size: 1.3rem;
+  color: #393636;
+  line-height: 1.4rem;
+  display: block;
+  clear: both;
+}
+
+@media screen and (min-width: 768px) {
+  .pressmainsection > a {
+    line-height: 1.1rem;
+  }
+}
+
+.pressmainsection > a > .linkdivit {
+  color: #f04f25;
+  font-size: 1.1rem;
+}
+
 .bluetext {
   color: #37c0c8;
 }
