@@ -1,11 +1,10 @@
 Things todo:
 Create blog individual post page
-Get THE RUN menu working
 Get st jude image banner on thecause.html put in place
 moving hr bug
-top nav logo does not go opaque at all
 make square edges on buttons
 Have Video stills start video
+turn menu into hamburger in phone display
 
 Interactive mileage / route map
 fix 404, etc pages
