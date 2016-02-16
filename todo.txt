@@ -1,4 +1,5 @@
 Things todo:
+build sponsorship page
 Create blog individual post page
 Get st jude image banner on thecause.html put in place
 moving hr bug
