@@ -386,7 +386,7 @@ a.readmore {
 }
 
 @media screen and (max-width: 768px) {
-  .livefeedepisode{
+  .livefeedepisode {
      max-width: 685px;
   }
   .livefeedepisodeimage {
@@ -452,7 +452,74 @@ a.readmore {
   margin: 0px;
 }
 
-.livefeedepisodeimage {
+.crewmainsection {
+  background-color: white;
+  color: #393636;
+  padding: 0px;
+  width: 100%;
+}
+
+.crewimage {
+  background-color: white;
+  width: 100%;
+  padding: 0px;
+}
+
+.crewbiobox {
+  background-color: white;
+  padding: 0px;
+  padding-top: 5px;
+  padding-left: 0px;
+}
+
+.crewname {
+  padding-top: 0.5rem;
+  padding-left: 1.0rem;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.crewrole {
+  padding-left: 1.0rem;
+  font-size: 1.3rem;
+  color: white;
+  padding-bottom: 0.5rem;
+}
+
+.crewbio {
+  padding-top: 1.0rem;
+  padding-left: 1.0rem;
+  font-size: 1.2rem;
+  padding-right: 1.0rem;
+}
+
+@media screen and (min-width: 768px) {
+  .crewimage {
+    width: 30%;
+  }
+  .crewbiobox {
+    padding-top: 0px;
+    padding-left: 10px;
+    float: right;
+    width: 70%;
+  }
+}
+
+.crewbioheading1 {
+  background-color: #2a739a;
+}
+
+.crewbioheading2 {
+  background-color: #37c0c8;
+}
+.crewbioheading3 {
+  background-color: #b6c132;
+}
+.crewbioheading4 {
+  background-color: #ff9c08;
+}
+.crewbioheading5 {
+  background-color: #f04f25;
 }
 
 .bluetext {
