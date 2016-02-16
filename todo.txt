@@ -6,6 +6,7 @@ moving hr bug
 make square edges on buttons
 Have Video stills start video
 turn menu into hamburger in phone display
+cull unused images
 
 Interactive mileage / route map
 fix 404, etc pages
