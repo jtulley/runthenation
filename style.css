@@ -552,6 +552,33 @@ a.readmore {
   background-color: #f04f25;
 }
 
+.sponsorshiplabelbanner {
+  background-color: #ff4100;
+  color: white;
+  width: 100%;
+  font-size: 3rem;
+  padding: 0px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .sponsorshiplabelbanner {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.currentsponsorstitle {
+  background-color: white;
+  width: 100%;
+  font-size: 3rem;
+  padding: 0px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
 .bluetext {
   color: #37c0c8;
 }
