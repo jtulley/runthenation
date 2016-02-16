@@ -8,3 +8,5 @@ why is the press page smaller??
 fix 404, etc pages
 fix favicon
 fix print media
+blue text missing from first quote on lisasstory.html
+moving hr bug

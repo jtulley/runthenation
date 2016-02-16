@@ -391,6 +391,14 @@ a.readmore {
   }
 }
 
+.livefeedepisodetext > hr {
+  position: relative;
+  border-color: white;
+  width: 50%;
+  padding: 0px;
+}
+
+
 @media screen and (min-width: 768px) {
   .livefeedepisode {
      position: relative;
@@ -405,18 +413,16 @@ a.readmore {
   .livefeedepisodetext {
     padding-top: 40px;
   }
+
+  .livefeedepisodetext > hr {
+    width: 25%;
+  }
+
 }
 
 .livefeedepisodetitle {
   font-size: 1.2rem;
   line-height: 0.7rem;
-  padding: 0px;
-}
-
-.livefeedepisodetext > hr {
-  position: relative;
-  border-color: white;
-  width: 25%;
   padding: 0px;
 }
 
