@@ -1,11 +1,15 @@
 Things todo:
-make square edges on buttons
-fix image links in footer to not show current page's picture
+Create blog individual post page
+Get THE RUN menu working
 Get st jude image banner on thecause.html put in place
+moving hr bug
+top nav logo does not go opaque at all
+make square edges on buttons
+Have Video stills start video
+
 Interactive mileage / route map
-style visited and hover links
-why is the press page smaller??
 fix 404, etc pages
 fix favicon
+style visited and hover links
 fix print media
-moving hr bug
+fix image links in footer to not show current page's picture
