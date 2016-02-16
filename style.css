@@ -578,6 +578,13 @@ a.readmore {
   padding-bottom: 1rem;
 }
 
+.currentsponsorimage {
+  background-color: white;
+  margin-bottom: 50px;
+  height: 105px;
+}
+
+
 
 .bluetext {
   color: #37c0c8;
