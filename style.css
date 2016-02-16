@@ -386,6 +386,9 @@ a.readmore {
 }
 
 @media screen and (max-width: 768px) {
+  .livefeedepisode{
+     max-width: 685px;
+  }
   .livefeedepisodeimage {
      width: 100%;
   }
@@ -404,6 +407,7 @@ a.readmore {
      position: relative;
      height: 282px;
   }
+
   .livefeedepisodeimage {
      position: relative;
      float: right;
@@ -450,10 +454,6 @@ a.readmore {
 
 .livefeedepisodeimage {
 }
-
-
-//repeat these three
-//Older Videos link text: #2a739a
 
 .bluetext {
   color: #37c0c8;
