@@ -1,8 +1,6 @@
 Things todo:
 Create blog individual post page
-Get st jude image banner on thecause.html put in place
 Fix all links
-more space on kicking and screaming quote on lisa's story
 moving hr bug
 make square edges on buttons
 Have Video stills start video

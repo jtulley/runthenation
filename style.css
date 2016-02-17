@@ -23,7 +23,10 @@ body {
     font-weight: bold;
     margin-left: auto;
     margin-right: auto;
-    font-size: 9pt;
+		font-size: 12px;
+		font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 html, body {
@@ -668,8 +671,8 @@ a.readmore {
 
 .extralargequotetext {
   font-size: 4.0rem;
-  line-height: 3.0rem;
-  font-weight: normal;
+  line-height: 3.5rem;
+  font-weight: bold;
 }
 
 .extrasmallquotetext {
