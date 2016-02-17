@@ -680,6 +680,12 @@ a.readmore {
   font-size: 0.8rem;
 }
 
+@media screen and (max-width: 768px) {
+	.imagelinks {
+		 height: 374px;
+	}
+}
+
 .imagecontainer {
   position: relative;
   padding: 0px;
