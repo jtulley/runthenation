@@ -445,6 +445,7 @@ a.readmore {
      position: relative;
      float: right;
      padding: 0px;
+     width: 535px;
      height: 282px;
   }
   .livefeedepisodetext {

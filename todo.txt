@@ -1,10 +1,10 @@
 Things todo:
 Create blog individual post page
 Fix all links
-moving hr bug
 make square edges on buttons
 Have Video stills start video
 turn menu into hamburger in phone display
+image sizes where appropriate
 cull unused images
 
 Interactive mileage / route map
