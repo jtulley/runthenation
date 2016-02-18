@@ -1,7 +1,7 @@
 Things todo:
 Create blog individual post page
 Fix all links
-make square edges on buttons
+slight gap under white st judes box right below 768 px;
 Have Video stills start video
 turn menu into hamburger in phone display
 image sizes where appropriate

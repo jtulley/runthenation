@@ -815,3 +815,9 @@ max-width: 100%;
   color: #393636;
 }
 
+.btn {
+  border-radius:                    0px;
+  -webkit-border-radius:            0px;
+  -moz-border-radius:               0px;
+}
+
