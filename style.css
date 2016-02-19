@@ -1,17 +1,16 @@
 /*
-Theme Name: WP Bootstrap
-Theme URI: http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial
-Description: A demo theme built to accompany the Treehouse blog post <a href="http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial">How to Build a WordPress Theme with Bootstrap</a>.
-Author: Zac Gordon
-Author URI: http://teamtreehouse.com/
+Theme Name: RunTheNation
+Theme URI: http://www.runthenation.com/
+Description: A theme for runthenation.com 
+Author: Jeff Tulley
+Author URI: http://runthenation.com/
 Version: 1.0
 Tags: responsive, white, bootstrap
 
 License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 License URI: http://creativecommons.org/licenses/by-sa/3.0/
-
-This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
 */
+
 html {
   overflow-y: auto;
   overflow-x: auto;
@@ -620,7 +619,7 @@ a.readmore {
 
 .orangeblock {
   background-color: #ff9c08;
-  padding: 40px;
+  padding: 38px;
   color: white;
   min-height: 245px;
 }

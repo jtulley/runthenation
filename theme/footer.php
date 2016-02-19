@@ -1,37 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>RunTheNation</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Le styles -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-  </head>
-  <body>
-
-  <div class="container-fluid">
-    <div class="maincontent">
       <div class="row" style="padding: 0px;">
         <div class="col-xs-3 imagecontainer">
-           <a href="thecause.html"><img src="images/BottomBlockPicture1_225.png" alt="Lisa's Story"/></a>
+           <a href="<?php echo site_url(); ?>?page_id=13"><img src="images/BottomBlockPicture1_225.png" alt="Cause"/></a>
         </div>
         <div class="col-xs-3 imagecontainer">
-           <a href="crew.html"><img src="images/BottomBlockPicture2_225.png" alt="Crew"/></a>
+           <a href="<?php echo site_url(); ?>?page_id=15"><img src="images/BottomBlockPicture2_225.png" alt="Crew"/></a>
         </div>
         <div class="col-xs-3 imagecontainer">
-           <a href="lisasstory.html"><img src="images/BottomBlockPicture3_225.png" alt="Course"/></a>
+           <a href="<?php echo site_url(); ?>?page_id=11"><img src="images/BottomBlockPicture3_225.png" alt="Lisa's Story"/></a>
         </div>
         <div class="col-xs-3 imagecontainer">
-           <a href="sponsorship.html"><img src="images/BottomBlockPicture4_225.png" alt="Sponsorship"/></a>
+           <a href="<?php echo site_url(); ?>?page_id=21"><img src="images/BottomBlockPicture4_225.png" alt="Sponsorship"/></a>
         </div>
       </div>
       <div class="row">
@@ -40,7 +18,7 @@
           <p style="color: #2c7197; font-weight: bold">IT IS 100% ABOUT RAISING AWARENESS AND FUNDS</p>
           <p>for this cause so that they can continue saving the world.</p>
           <p>Any amount helps.  Thank you.</p>
-          <form class="form-inline" name="donate-form"><button type="submit" class="btn btn-primary center-block">Donate</button></form>
+          <form class="form-inline" name="donate-form"><button type="submit" class="btn btn-primary center-block">DONATE</button></form>
         </div>
       </div>
 <div class="footerimage">
@@ -73,11 +51,11 @@
           </div>
         </div>
         <div class="col-xs-11  col-xs-offset-1 col-sm-offset-1  col-sm-3 footerrighttext">
-          <p><a href="lisasstory.html">LISA'S STORY</a></p>
-          <p><a href="thecause.html">THE CAUSE</a></p>
-          <p><a href="blog.html">BLOG</a></p>
-          <p><a href="press.html">PRESS</a></p>
-          <p><a href="sponsorship.html">SPONSORSHIP</a></p>
+          <p><a href="<?php echo site_url(); ?>?page_id=11">LISA'S STORY</a></p>
+          <p><a href="<?php echo site_url(); ?>?page_id=13">THE CAUSE</a></p>
+          <p><a href="blog.php">BLOG</a></p>
+          <p><a href="<?php echo site_url(); ?>?page_id=19">PRESS</a></p>
+          <p><a href="<?php echo site_url(); ?>?page_id=21">SPONSORSHIP</a></p>
         </div>
       </div>
       <div class="row">
