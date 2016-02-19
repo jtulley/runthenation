@@ -1,5 +1,7 @@
 <?php get_header(); ?>
+<?php wp_link_pages(); ?>
       <div class="row">
+
         <div class="col-xs-12 text-center bloglabelbanner">
 BLOG
         </div>

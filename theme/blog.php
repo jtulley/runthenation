@@ -1,7 +1,8 @@
 <?php 
 define('WP_USE_THEMES', false);
 require('./wp-blog-header.php');
-require('./wp-content/themes/theme/header.php');
+include('./wp-content/themes/theme/header.php');
+wp_link_pages();
 ?>
 
       <div class="row">
@@ -50,13 +51,14 @@ if ( get_the_post_thumbnail(get_the_ID()) != '' ) {
         </div>
       </div>
 <?php endforeach; ?>
+
       <div class="row">
         <div class="col-xs-12 blogolderposts">
-<?php posts_nav_link(); ?>
-Did it work?? <?php echo test_function(); ?>
+
+<?php previous_posts_link('&lt;&lt; OLDER POSTS') ?>
+<?php next_posts_link('&nbsp;&nbsp; NEWER POSTS &gt;&gt;') ?>
+
         </div>
       </div>
 
-<?php 
-require('./wp-content/themes/theme/footer.php');
-?>
+<?php include('./wp-content/themes/theme/footer.php'); ?>
