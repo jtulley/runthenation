@@ -53,7 +53,7 @@
         <div class="col-xs-11  col-xs-offset-1 col-sm-offset-1  col-sm-3 footerrighttext">
           <p><a href="<?php echo site_url(); ?>?page_id=11">LISA'S STORY</a></p>
           <p><a href="<?php echo site_url(); ?>?page_id=13">THE CAUSE</a></p>
-          <p><a href="blog.php">BLOG</a></p>
+          <p><a href="http://runthenationtemp.birthritewc.com/?page_id=4">BLOG</a></p>
           <p><a href="<?php echo site_url(); ?>?page_id=19">PRESS</a></p>
           <p><a href="<?php echo site_url(); ?>?page_id=21">SPONSORSHIP</a></p>
         </div>

@@ -1,17 +1,66 @@
 <?php get_header(); ?>
+
+<?php
+if ( get_query_var( 'paged' ) ) { $paged = get_query_var( 'paged' ); }
+elseif ( get_query_var( 'page' ) ) { $paged = get_query_var( 'page' ); }
+else { $paged = 1; }
+
+if (get_query_var( 'type' ) == 'video') {
+	$tax_query = array(
+		array(
+		'taxonomy' => 'post_format',
+		'field'    => 'slug',
+		'terms'    => array( 'post-format-video'),
+		'operator' => 'IN',
+		)
+	 );
+   $page_title="LIVE FEED";
+} else {
+	$tax_query = array(
+		array(
+		'taxonomy' => 'post_format',
+		'field'    => 'slug',
+		'terms'    => array( 'post-format-video'),
+		'operator' => 'NOT IN',
+		)
+	 );
+   $page_title="BLOG";
+}
+?>
       <div class="row">
         <div class="col-xs-12 text-center bloglabelbanner">
-BLOG
+<?php echo $page_title; ?>
         </div>
       </div>
-<?php 
-if ( have_posts() ) {
-	while ( have_posts() ) {
-		the_post();  ?>
+
+<?php
+
+$formats = new WP_Query( array(
+	'posts_per_page' => 3,
+	'paged' => $paged,
+	'tax_query' => $tax_query
+));
+
+
+if( $formats->have_posts() ) : while( $formats->have_posts() ) : $formats->the_post(); 
+?>
       <div class="row" style="padding: 0px">
         <div class="col-xs-12 blogmainsection" style="padding: 0px">
           <div class="col-xs-8 col-sm-4 blogentryimage" style="padding: 20px">
-            <img src="images/BlogPost1Picture.png" />
+
+<?php
+if ( get_the_post_thumbnail(get_the_ID()) != '' ):
+  echo '<a href="'; the_permalink(); echo '" class="thumbnail-wrapper">';
+   the_post_thumbnail();
+  echo '</a>';
+else:
+ echo '<a href="'; the_permalink(); echo '" class="thumbnail-wrapper">';
+ echo '<img src="';
+ echo catch_that_image();
+ echo '" alt="" />';
+ echo '</a>';
+endif;
+?>
           </div>
           <div class="col-xs-12 col-sm-8 blogentry">
             <div class="blogentrydate"><?php the_time('j.M.y'); ?></div>
@@ -24,28 +73,23 @@ if ( have_posts() ) {
           </div>
         </div>
       </div>
-<?php 
-	} // end while
-?>
+
+<?php endwhile;  ?>
+
       <div class="row">
         <div class="col-xs-12 blogolderposts">
-
-<?php previous_posts_link('<< OLDER POSTS') ?>
-<?php next_posts_link('&nbsp;&nbsp; NEWER POSTS >>') ?>
+<?php next_posts_link('<< OLDER POSTS') ?>
+<?php previous_posts_link('&nbsp;&nbsp;NEWER POSTS >>') ?>
 
         </div>
       </div>
 
-<?php 
-} // end if
-else { ?>
-
+<?php else:  ?>
       <div class="row" style="padding: 0px">
         <div class="col-xs-12 blogmainsection" style="padding: 0px">
 No posts, sorry
 				</div>
 			</div>
-<?php 
-} ?>
+<?php endif;  ?>
 
 <?php get_footer(); ?>

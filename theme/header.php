@@ -33,8 +33,8 @@
             </div>
             </div>
           </span>
-          <span class="navitem"><a href="livefeed.php">LIVE FEED</a></span>
-          <span class="navitem"><a href="blog.php">BLOG</a></span>
+          <span class="navitem"><a href="http://runthenationtemp.birthritewc.com/?page_id=4&page_type=video">LIVE FEED</a></span>
+          <span class="navitem"><a href="http://runthenationtemp.birthritewc.com/?page_id=4">BLOG</a></span>
           <span class="navitem"><a href="<?php echo site_url(); ?>?page_id=19">PRESS</a></span>
         </div>
         <div class="col-xs-12 col-sm-1 center-block" style="padding-bottom: 5px; padding-top: 5px;">
