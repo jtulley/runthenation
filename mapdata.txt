@@ -1,0 +1,58 @@
+Fiddler:
+https://jsfiddle.net/4o3gdyzv/
+
+HTML:
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+   
+    <div id="map_div" style="height: 500px; width: 900px"></div>
+
+   
+
+Javascript:
+
+      google.charts.load('current', {packages: ['map']});
+    google.charts.setOnLoadCallback(drawMap);
+
+    function drawMap () {
+      var data = new google.visualization.DataTable();
+      data.addColumn('string', 'Address');
+      data.addColumn('string', 'Location');
+      data.addColumn('string', 'Marker')
+
+      data.addRows([
+        ['Santa Monica Pier, Santa Monica, CA', 'Santa Monica Pier', 'blue'],
+        ['LA City Hall Los Angeles, United States',      'Los Angeles', 'pink'],
+        ['eagar, az', 'Eagar, AZ', 'green'],
+        ['Nara Visa, NM', 'Nara Visa, NM', 'blue'],
+        ['Fort Scott, KS', 'Fort Scott, KS', 'pink'],
+        ['McKinley Bridge, IL', 'McKinley Bridge, IL', 'green'],
+        ['Dayton, OH', 'Dayton, OH', 'green'],
+['NYC City Hall New York City NY, United States', 'New York',   'blue' ],
+      ]);
+      var url = 'http://icons.iconarchive.com/icons/icons-land/vista-map-markers/48/';
+
+      var options = {
+        zoomLevel: 4,
+        showTip: true,
+        useMapTypeControl: true,
+        icons: {
+          blue: {
+            normal:   url + 'Map-Marker-Ball-Azure-icon.png',
+            selected: url + 'Map-Marker-Ball-Right-Azure-icon.png'
+          },
+          green: {
+            normal:   url + 'Map-Marker-Ball-Chartreuse-icon.png',
+            selected: url + 'Map-Marker-Ball-Right-Chartreuse-icon.png'
+          },
+          pink: {
+            normal:   url + 'Map-Marker-Ball-Pink-icon.png',
+            selected: url + 'Map-Marker-Ball-Right-Pink-icon.png'
+          }
+        }
+      };
+      var map = new google.visualization.Map(document.getElementById('map_div'));
+
+      map.draw(data, options);
+    }
+
