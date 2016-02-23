@@ -1,5 +1,6 @@
+
 Things todo:
-Fix all links
+make contact page be able to email me instead, for technical issues
 Have Video stills start video
 turn menu into hamburger in phone display
 image sizes where appropriate
@@ -16,16 +17,9 @@ fix image links in footer to not show current page's picture
 
 
 From JCP meeting:
+Donate per mile -- slider
+vitals.
+Get bottom site image to Ryan
 
 Periscope streams
 twitter feed goes to website
-Sponsorship 
-send people to sponsors
-Contact page
-Donate per mile -- slider
-vitals.
-Take out stills button
-Get bottom site image to Ryan
-
-
-

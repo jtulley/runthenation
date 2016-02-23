@@ -118,12 +118,12 @@ html, body {
     line-height: 1.0rem;
   }
   .navitemsrow {
-		max-width: 569px;
-		min-width: 569px;
+    max-width: 675px;
+    min-width: 675px;
     padding-top: 0px;
   }
   .fullnavrow {
-    min-width: 804px;
+    min-width: 900px;
   }
 }
 
@@ -171,7 +171,7 @@ html, body {
 }
 
 .footerimage {
-   background: url("images/FooterLisaPicture_900.png") right bottom no-repeat;
+   background: url("/images/FooterLisaPicture_900.png") right bottom no-repeat;
    background-size: 100%;
 }
 
@@ -841,5 +841,128 @@ max-width: 100%;
   border-radius:                    0px;
   -webkit-border-radius:            0px;
   -moz-border-radius:               0px;
+}
+
+.wpcf7-text, .wpcf7-textarea {
+  line-height: 2rem;
+  width: 90%;
+}
+
+.contactuslabelbanner {
+  background-color: #37c0c8;
+  color: white;
+  width: 100%;
+  font-size: 3rem;
+  padding: 0px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .contactuslabelbanner {
+    padding-top: 7rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.contactusmainsection {
+  width: 100%;
+  background-color: white;
+  color: #393636;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.contactusmainsection > h1 {
+  color: #f04f25;
+  font-size: 1.9rem;
+  font-weight: bold;
+  line-height: 0.8rem;
+  padding-top: 0.5rem;
+}
+
+.contactusmainsection > h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 0.8rem;
+}
+
+.contactusmainsection > a {
+  font-size: 1.3rem;
+  color: #393636;
+  line-height: 1.4rem;
+  display: block;
+  clear: both;
+}
+
+@media screen and (min-width: 768px) {
+  .contactusmainsection > a {
+    line-height: 1.1rem;
+  }
+}
+
+.contactusmainsection > a > .linkdivit {
+  color: #f04f25;
+  font-size: 1.1rem;
+}
+
+.donatelabelbanner {
+  background-color: #efa320;
+  color: white;
+  width: 100%;
+  font-size: 3rem;
+  padding: 0px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .donatelabelbanner {
+    padding-top: 7rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.donatemainsection {
+  width: 100%;
+  background-color: white;
+  color: #393636;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.donatemainsection > h1 {
+  color: #f04f25;
+  font-size: 1.9rem;
+  font-weight: bold;
+  line-height: 0.8rem;
+  padding-top: 0.5rem;
+}
+
+.donatemainsection > h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 0.8rem;
+}
+
+.donatemainsection > a {
+  font-size: 1.3rem;
+  color: #393636;
+  line-height: 1.4rem;
+  display: block;
+  clear: both;
+}
+
+@media screen and (min-width: 768px) {
+  .donatemainsection > a {
+    line-height: 1.1rem;
+  }
+}
+
+.donatemainsection > a > .linkdivit {
+  color: #f04f25;
+  font-size: 1.1rem;
 }
 
