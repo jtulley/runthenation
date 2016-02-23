@@ -25,9 +25,9 @@
       <div class="row">
         <div class="col-xs-11 col-xs-offset-1 col-sm-offset-0 col-sm-3 footerlefttext">
           <p style="padding-left: 0px;">STAY CONNECTED</p>
-          <p><a href=""><img src="images/SocialMedia_Facebook_White.png" style="padding-right: 5px" alt="" />FACEBOOK</a></p>
-          <p><a href=""><img src="images/SocialMedia_Twitter_White.png" style="padding-right: 5px" alt="" />TWITTER</a></p>
-          <p><a href=""><img src="images/SocialMedia_Instagram_White.png" style="padding-right: 5px" alt="" />INSTAGRAM</a></p>
+          <p><a href="https://www.facebook.com/RUNTheNation2016/"><img src="images/SocialMedia_Facebook_White.png" style="padding-right: 5px" alt="" />FACEBOOK</a></p>
+          <p><a href="https://twitter.com/RUN_The_Nation"><img src="images/SocialMedia_Twitter_White.png" style="padding-right: 5px" alt="" />TWITTER</a></p>
+          <p><a href="https://www.instagram.com/run_the_nation/"><img src="images/SocialMedia_Instagram_White.png" style="padding-right: 5px" alt="" />INSTAGRAM</a></p>
         </div>
         <div class="col-xs-12 col-sm-5 text-center footermiddletext">
           <div id="clockdiv">

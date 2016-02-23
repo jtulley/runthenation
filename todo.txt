@@ -4,6 +4,8 @@ Have Video stills start video
 turn menu into hamburger in phone display
 image sizes where appropriate
 cull unused images
+donate button should not wrap
+Get header using theme style.css
 
 Interactive mileage / route map
 fix 404, etc pages
@@ -23,6 +25,7 @@ Contact page
 Donate per mile -- slider
 vitals.
 Take out stills button
+Get bottom site image to Ryan
 
 
 

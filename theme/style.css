@@ -42,7 +42,7 @@ html, body {
 }
 
 .maincontent {
-  padding-top: 355px;
+  padding-top: 400px;
   color: white;
   width: 100%;
   max-width: 900px;
@@ -64,9 +64,17 @@ html, body {
   z-index: 1;
 }
 
+.topnavdonate {
+  padding-top: 10px;
+}
+
 @media screen and (min-width: 768px) {
   .topnav {
     opacity: 0.8;
+  }
+  .topnavdonate {
+    display: inline-block;
+    padding-left: 10px;
   }
 }
 
@@ -74,6 +82,12 @@ html, body {
   padding: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.navlogo {
+  padding: 0px;
+  padding-top: 10px;
+  min-width: 218px;
 }
 
 .navitem, .dropdown-content > p {
@@ -103,6 +117,14 @@ html, body {
     clear: none;
     line-height: 1.0rem;
   }
+  .navitemsrow {
+		max-width: 569px;
+		min-width: 569px;
+    padding-top: 0px;
+  }
+  .fullnavrow {
+    min-width: 804px;
+  }
 }
 
 .navitem > a, .dropdown-content > p > a {
@@ -127,7 +149,7 @@ html, body {
 			position: absolute;
 			background-color: #f9f9f9;
 			min-width: 90px;
-			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
 			padding: 12px 12px;
   		margin: 0px;
 	}
@@ -135,11 +157,12 @@ html, body {
 	.dropdown-content > p {
 		background-color: #f9f9f9;
     border: none;
+    color: black;
 	}
 
 
 	.dropdown-content > p > a {
-		color: #393636;
+		color: black;
 	}
 
 	.dropdown:hover .dropdown-content {
@@ -220,7 +243,7 @@ html, body {
 
 @media screen and (min-width: 768px) {
   .presslabelbanner {
-    padding-top: 5rem;
+    padding-top: 7rem;
     padding-bottom: 1rem;
   }
 }
@@ -279,7 +302,7 @@ html, body {
 
 @media screen and (min-width: 768px) {
   .bloglabelbanner {
-    padding-top: 5rem;
+    padding-top: 7rem;
     padding-bottom: 1rem;
   }
 }
@@ -358,7 +381,7 @@ a.readmore {
 
 @media screen and (min-width: 768px) {
   .livefeedlabelbanner {
-    padding-top: 5rem;
+    padding-top: 7rem;
     padding-bottom: 1rem;
   }
 }
@@ -567,7 +590,7 @@ a.readmore {
 
 @media screen and (min-width: 768px) {
   .sponsorshiplabelbanner {
-    padding-top: 5rem;
+    padding-top: 7rem;
     padding-bottom: 1rem;
   }
 }

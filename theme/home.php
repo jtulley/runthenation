@@ -5,7 +5,7 @@ if ( get_query_var( 'paged' ) ) { $paged = get_query_var( 'paged' ); }
 elseif ( get_query_var( 'page' ) ) { $paged = get_query_var( 'page' ); }
 else { $paged = 1; }
 
-if (get_query_var( 'type' ) == 'video') {
+if (get_query_var( 'page_type' ) == 'video') {
 	$tax_query = array(
 		array(
 		'taxonomy' => 'post_format',
@@ -67,9 +67,11 @@ endif;
             <hr />
             <h1><?php the_title(); ?></h1>
             <p><?php the_excerpt(); ?><a href="<?php the_permalink(); ?>" class="readmore">READ MORE >></a></p>
+<!-- need to figure these out:
             <img src="images/SocialMedia_Facebook_Blue.png" alt="Share on Facebook" title="Share on Facebook" />
             <img src="images/SocialMedia_Twitter_Blue.png" alt="Share on Twitter" title="Share on Twitter" />
             <img src="images/SocialMedia_Email_Blue.png" alt="Email this post" title="Email this post" />
+-->
           </div>
         </div>
       </div>
