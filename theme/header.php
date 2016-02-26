@@ -37,6 +37,7 @@
           <span class="navitem"><a href="<?php echo site_url(); ?>/sponsorship/</a></span>
           <span class="navitem"><a href="<?php echo site_url(); ?>/blog/">BLOG</a></span>
           <span class="navitem"><a href="<?php echo site_url(); ?>/press/">PRESS</a></span>
+          <span class="navitem"><a href="<?php echo site_url(); ?>/sponsors/">SPONSORSHIP</a></span>
           <span class="navitem"><a href="<?php echo site_url(); ?>/contact-us/">CONTACT US</a></span>
           <div class="topnavdonate"><a href="<?php echo site_url(); ?>/donate/"><button type="button" class="btn btn-primary center-block">DONATE</button></a></div>
         </div>
