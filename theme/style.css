@@ -929,8 +929,16 @@ max-width: 100%;
   background-color: white;
   color: #393636;
   font-size: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 0px;
+}
+
+.donatebluesection {
+  background-color: #37c0c8;
+  padding: 0.5rem;
+}
+
+.donatebluesection > p {
+  padding: 1.0rem;
 }
 
 .donatemainsection > h1 {
