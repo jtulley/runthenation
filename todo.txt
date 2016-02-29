@@ -1,12 +1,11 @@
 
 Things todo:
+Upload new crew page, including casey's pic(already uploaded)
 make contact page be able to email me instead, for technical issues
 Have Video stills start video
 turn menu into hamburger in phone display
 image sizes where appropriate
 cull unused images
-donate button should not wrap
-Get header using theme style.css
 
 Interactive mileage / route map
 fix 404, etc pages

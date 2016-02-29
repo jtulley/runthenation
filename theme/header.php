@@ -36,8 +36,15 @@
           </span>
           <span class="navitem"><a href="<?php echo site_url(); ?>/sponsorship/</a></span>
           <span class="navitem"><a href="<?php echo site_url(); ?>/blog/">BLOG</a></span>
-          <span class="navitem"><a href="<?php echo site_url(); ?>/press/">PRESS</a></span>
-          <span class="navitem"><a href="<?php echo site_url(); ?>/sponsors/">SPONSORSHIP</a></span>
+          <span class="navitem"><a href="<?php echo site_url(); ?>/sponsorship/">SPONSORS</a></span>
+          <span class="navitem" style="padding:0px 0px 0px 10px;"><div class="dropdown"><span>PRESS<span class="dropdownarrow"> &#9660;</span></span>
+           <div class="dropdown-content">
+            <p><a href="<?php echo site_url(); ?>/press/">LISA IN THE PRESS</a></p>
+            <p><a href="<?php echo site_url(); ?>/press-inquiries/">PRESS INQUIRIES</a></p>
+            <p><a href="<?php echo site_url(); ?>/media-center">MEDIA CENTER</a></p>
+            </div>
+            </div>
+          </span>
           <span class="navitem"><a href="<?php echo site_url(); ?>/contact-us/">CONTACT US</a></span>
           <div class="topnavdonate"><a href="<?php echo site_url(); ?>/donate/"><button type="button" class="btn btn-primary center-block">DONATE</button></a></div>
         </div>
