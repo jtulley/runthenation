@@ -23,29 +23,34 @@
         <div class="col-xs-12 col-sm-3 navlogo">
           <a href="<?php echo site_url(); ?>"><img src="/images/RunTheNationLogo.png" alt="Run The Nation" style="padding: 0.5rem;"></a>
         </div>
+        <div class="col-xs-12 visible-xs-block">
+Go To     (hamburger)
+        </div>
         <div class="col-xs-12 col-sm-9 navitemsrow"> 
-          <span class="navitem"><a href="<?php echo site_url(); ?>/lisas-story/">LISA'S STORY</a></span>
-          <span class="navitem"><a href="<?php echo site_url(); ?>/the-cause/">THE CAUSE</a></span>
-          <span class="navitem" style="padding:0px 0px 0px 10px;"><div class="dropdown"><span>THE RUN<span class="dropdownarrow"> &#9660;</span></span>
-           <div class="dropdown-content">
-            <p><a href="<?php echo site_url(); ?>/crew/">CREW</a></p>
-            <p><a href="<?php echo site_url(); ?>/course/">COURSE</a></p>
-            <p><a href="<?php echo site_url(); ?>/blog/?page_type=video">LIVE&nbsp;FEED</a></p>
-            </div>
-            </div>
-          </span>
-          <span class="navitem"><a href="<?php echo site_url(); ?>/sponsorship/</a></span>
-          <span class="navitem"><a href="<?php echo site_url(); ?>/blog/">BLOG</a></span>
-          <span class="navitem"><a href="<?php echo site_url(); ?>/sponsorship/">SPONSORS</a></span>
-          <span class="navitem" style="padding:0px 0px 0px 10px;"><div class="dropdown"><span>PRESS<span class="dropdownarrow"> &#9660;</span></span>
-           <div class="dropdown-content">
-            <p><a href="<?php echo site_url(); ?>/press/">LISA IN THE PRESS</a></p>
-            <p><a href="<?php echo site_url(); ?>/press-inquiries/">PRESS INQUIRIES</a></p>
-            <p><a href="<?php echo site_url(); ?>/media-center">MEDIA CENTER</a></p>
-            </div>
-            </div>
-          </span>
-          <span class="navitem"><a href="<?php echo site_url(); ?>/contact-us/">CONTACT US</a></span>
+          <div class="smandlargerscreennav>
+            <span class="navitem"><a href="<?php echo site_url(); ?>/lisas-story/">LISA'S STORY</a></span>
+            <span class="navitem"><a href="<?php echo site_url(); ?>/the-cause/">THE CAUSE</a></span>
+            <span class="navitem" style="padding:0px 0px 0px 10px;"><div class="dropdown"><span>THE RUN<span class="dropdownarrow"> &#9660;</span></span>
+             <div class="dropdown-content">
+              <p><a href="<?php echo site_url(); ?>/crew/">CREW</a></p>
+              <p><a href="<?php echo site_url(); ?>/course/">COURSE</a></p>
+              <p><a href="<?php echo site_url(); ?>/blog/?page_type=video">LIVE&nbsp;FEED</a></p>
+              </div>
+              </div>
+            </span>
+            <span class="navitem"><a href="<?php echo site_url(); ?>/sponsorship/</a></span>
+            <span class="navitem"><a href="<?php echo site_url(); ?>/blog/">BLOG</a></span>
+            <span class="navitem"><a href="<?php echo site_url(); ?>/sponsorship/">SPONSORS</a></span>
+            <span class="navitem" style="padding:0px 0px 0px 10px;"><div class="dropdown"><span>PRESS<span class="dropdownarrow"> &#9660;</span></span>
+             <div class="dropdown-content">
+              <p><a href="<?php echo site_url(); ?>/press/">LISA IN THE PRESS</a></p>
+              <p><a href="<?php echo site_url(); ?>/press-inquiries/">PRESS INQUIRIES</a></p>
+              <p><a href="<?php echo site_url(); ?>/media-center">MEDIA CENTER</a></p>
+              </div>
+              </div>
+            </span>
+            <span class="navitem"><a href="<?php echo site_url(); ?>/contact-us/">CONTACT US</a></span>
+          </div>
           <div class="topnavdonate"><a href="<?php echo site_url(); ?>/donate/"><button type="button" class="btn btn-primary center-block">DONATE</button></a></div>
         </div>
       </div>

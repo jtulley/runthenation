@@ -1,9 +1,8 @@
-
 Things todo:
-Upload new crew page, including casey's pic(already uploaded)
-make contact page be able to email me instead, for technical issues
-Have Video stills start video
+Incorporate new logo graphic (rework nav bar??)
+Make contact form prettier
 turn menu into hamburger in phone display
+Have Video stills start video
 image sizes where appropriate
 cull unused images
 
