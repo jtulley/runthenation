@@ -34,12 +34,12 @@ Go To     (hamburger)
              <div class="dropdown-content">
               <p><a href="<?php echo site_url(); ?>/crew/">CREW</a></p>
               <p><a href="<?php echo site_url(); ?>/course/">COURSE</a></p>
-              <p><a href="<?php echo site_url(); ?>/blog/?page_type=video">LIVE&nbsp;FEED</a></p>
+              <p><a href="<?php echo site_url(); ?>/theblog/?page_type=video">LIVE&nbsp;FEED</a></p>
               </div>
               </div>
             </span>
             <span class="navitem"><a href="<?php echo site_url(); ?>/sponsorship/</a></span>
-            <span class="navitem"><a href="<?php echo site_url(); ?>/blog/">BLOG</a></span>
+            <span class="navitem"><a href="<?php echo site_url(); ?>/theblog/">BLOG</a></span>
             <span class="navitem"><a href="<?php echo site_url(); ?>/sponsorship/">SPONSORS</a></span>
             <span class="navitem" style="padding:0px 0px 0px 10px;"><div class="dropdown"><span>PRESS<span class="dropdownarrow"> &#9660;</span></span>
              <div class="dropdown-content">

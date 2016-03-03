@@ -54,7 +54,7 @@
         <div class="col-xs-11  col-xs-offset-1 col-sm-offset-1  col-sm-3 footerrighttext">
           <p><a href="<?php echo site_url(); ?>/lisas-story/">LISA'S STORY</a></p>
           <p><a href="<?php echo site_url(); ?>/the-cause/">THE CAUSE</a></p>
-          <p><a href="<?php echo site_url(); ?>/?page_id=4">BLOG</a></p>
+          <p><a href="<?php echo site_url(); ?>/theblog/">BLOG</a></p>
           <p><a href="<?php echo site_url(); ?>/press/">PRESS</a></p>
           <p><a href="<?php echo site_url(); ?>/sponsorship/">SPONSORSHIP</a></p>
         </div>
