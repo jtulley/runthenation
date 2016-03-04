@@ -42,7 +42,7 @@ html, body {
 }
 
 .maincontent {
-  padding-top: 520px;
+  padding-top: 8.0rem;
   color: white;
   width: 100%;
   max-width: 900px;
@@ -50,7 +50,7 @@ html, body {
 
 @media screen and (min-width: 768px) {
   .maincontent {
-    padding-top: 0px;
+    padding-top: 8.0rem;
   }
 }
 
@@ -82,12 +82,25 @@ html, body {
   padding: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
+  display: none;
+}
+
+.hamburgermeta {
+  display: inline-block;
+  padding: 0px;
+  padding-top: 10px;
+}
+
+.hamburgerpath {
+  fill: white;
 }
 
 .navlogo {
   padding: 0px;
-  padding-top: 10px;
-  min-width: 218px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  height: 8.0rem;
+  max-width: 177px;
 }
 
 .navitem, .dropdown-content > p {
@@ -106,7 +119,6 @@ html, body {
   margin: -1px -1px 0px -11px;
 }
 
-
 @media screen and (min-width: 768px) {
   .navitem {
     background-color: black;
@@ -120,7 +132,8 @@ html, body {
   .navitemsrow {
     max-width: 675px;
     min-width: 675px;
-    padding-top: 0px;
+    padding-top: 1.0rem;
+    display:block !important;
   }
   .fullnavrow {
     min-width: 900px;
@@ -171,7 +184,7 @@ html, body {
 }
 
 .footerimage {
-   background: url("../images/FooterLisaPicture_900.png") right bottom no-repeat;
+   background: url("/images/FooterLisaPicture_900.png") right bottom no-repeat;
    background-size: 100%;
 }
 
@@ -243,7 +256,7 @@ html, body {
 
 @media screen and (min-width: 768px) {
   .presslabelbanner {
-    padding-top: 7rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
   }
 }
@@ -302,7 +315,7 @@ html, body {
 
 @media screen and (min-width: 768px) {
   .bloglabelbanner {
-    padding-top: 7rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
   }
 }
@@ -381,7 +394,7 @@ a.readmore {
 
 @media screen and (min-width: 768px) {
   .livefeedlabelbanner {
-    padding-top: 7rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
   }
 }
@@ -590,7 +603,7 @@ a.readmore {
 
 @media screen and (min-width: 768px) {
   .sponsorshiplabelbanner {
-    padding-top: 7rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
   }
 }
@@ -703,9 +716,15 @@ a.readmore {
 }
 
 @media screen and (max-width: 768px) {
-	.imagelinks {
-		 height: 374px;
-	}
+  .imagelinks {
+    height: 374px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .fullnavrow {
+    min-width: 330px;
+  }
 }
 
 .imagecontainer {
@@ -774,7 +793,7 @@ max-width: 100%;
 @media screen and (min-width: 768px) {
   .topclockdiv {
     position: absolute;
-    padding: 7rem 2rem 10rem 2rem;
+    padding: 5rem 2rem 10rem 0rem;
     z-index: 3;
   }
 }
@@ -874,7 +893,7 @@ max-width: 100%;
 
 @media screen and (min-width: 768px) {
   .contactuslabelbanner {
-    padding-top: 7rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
   }
 }

@@ -9,6 +9,8 @@
 		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link href="theme/style.css" rel="stylesheet" type="text/css" />
 
+    <script src="js/navrow.js"></script>
+
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -20,11 +22,14 @@
   <div class="container-fluid">
     <div class="topnav">
       <div class="row fullnavrow">
-        <div class="col-xs-12 col-sm-3 navlogo">
-          <a href="<?php echo site_url(); ?>"><img src="images/RunTheNationLogo.png" alt="Run The Nation" style="padding: 0.5rem;"></a>
+        <div class="col-xs-5 col-sm-3 navlogo">
+          <a href="<?php echo site_url(); ?>"><img src="images/RunTheNationRedWhiteBlueLogo_text_side_1682x668.png" alt="Run The Nation"></a>
         </div>
-        <div class="col-xs-12 col-sm-9 navitemsrow"> 
-          <div class="smandlargerscreennav>
+        <div class="col-xs-7 visible-xs" style="padding: 0px; padding-top: 1.0rem; font-size: 2.0rem; min-width: 191px; "> 
+<a href="" onClick="toggleNavItemsDisplay(); return false;" style="color: white; ">
+<svg height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="hamburgermeta"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z" class="hamburgerpath"/></svg>&nbsp;&nbsp;GO TO PAGE...</a>
+        </div>
+        <div class="col-xs-12 col-sm-9 navitemsrow" id="navitemsrow"> 
             <span class="navitem"><a href="<?php echo site_url(); ?>/lisas-story/">LISA'S STORY</a></span>
             <span class="navitem"><a href="<?php echo site_url(); ?>/the-cause/">THE CAUSE</a></span>
             <span class="navitem" style="padding:0px 0px 0px 10px;"><div class="dropdown"><span>THE RUN<span class="dropdownarrow"> &#9660;</span></span>
@@ -47,13 +52,13 @@
               </div>
             </span>
             <span class="navitem"><a href="<?php echo site_url(); ?>/contact-us/">CONTACT US</a></span>
-          </div>
+            <div class="topnavdonate"><a href="<?php echo site_url(); ?>/donate/"><button type="button" class="btn btn-primary center-block">DONATE</button></a></div>
         </div>
       </div>
     </div>
     <div class="maincontent">
       <div class="row">
-        <div class="col-xs-11 col-xs-offset-3 col-sm-9 hidden-xs topclockdiv" id="topclockdiv">
+        <div class="col-xs-12 col-xs-offset-2 col-sm-offset-3 col-sm-9 topclockdiv" id="topclockdiv">
             <p class="introText">RECORD BREAKING BEGINS IN</p>
             <div>
               <span class="days"></span><span>:</span>
@@ -73,7 +78,7 @@
             </div>
         </div>
         <div class="col-xs-12" style="position: relative; padding: 0px;">
-          <img src="images/MainPageTopVideo_with_logo.png" style="padding: 0px; width: 100%; " alt=""/>
+          <img src="images/MainPageTopVideo_with_text_no_vid_button.png" style="padding: 0px; width: 100%; " alt=""/>
         </div>
       </div>
       <div class="row">
