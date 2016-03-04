@@ -61,7 +61,7 @@ html, body {
   width: 100%;
   top: 0px;
   background-color: black;
-  z-index: 1;
+  z-index: 4;
 }
 
 .topnavdonate {
@@ -171,7 +171,7 @@ html, body {
 }
 
 .footerimage {
-   background: url("/images/FooterLisaPicture_900.png") right bottom no-repeat;
+   background: url("../images/FooterLisaPicture_900.png") right bottom no-repeat;
    background-size: 100%;
 }
 
@@ -765,22 +765,36 @@ max-width: 100%;
   width: 70%;
 }
 
-#clockdiv {
+.topclockdiv {
+ padding: 2rem;
+ padding-top: 0rem;
+ position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .topclockdiv {
+    position: absolute;
+    padding: 7rem 2rem 10rem 2rem;
+    z-index: 3;
+  }
+}
+
+#clockdiv, #topclockdiv {
     display: inline-block;
     font-weight: 100;
 }
 
-#clockdiv > p {
+#clockdiv > p, #topclockdiv > p {
     color: #bcc732;
 }
 
-#clockdiv > div {
+#clockdiv > div, #topclockdiv > div {
     padding: 0px;
     border-radius: 3px;
     display: inline-block;
 }
 
-#clockdiv div > span {
+#clockdiv div > span, #topclockdiv div > span {
     padding: 2px;
     border-radius: 3px;
     font-size: 3.5rem;
