@@ -18,10 +18,7 @@ html {
 
 body { 
     background-color: black;
-    max-width: 900px;
     font-weight: bold;
-    margin-left: auto;
-    margin-right: auto;
 		font-size: 12px;
 		font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -45,7 +42,6 @@ html, body {
   padding-top: 8.0rem;
   color: white;
   width: 100%;
-  max-width: 900px;
 }
 
 @media screen and (min-width: 768px) {
@@ -57,7 +53,6 @@ html, body {
 .topnav {
   color: white;
   position: absolute;
-  max-width: 900px;
   width: 100%;
   top: 0px;
   background-color: black;
@@ -145,7 +140,6 @@ html, body {
     line-height: 1.0rem;
   }
   .navitemsrow {
-    max-width: 675px;
     min-width: 675px;
     padding-top: 1.0rem;
     display:block !important;
@@ -688,8 +682,11 @@ a.readmore {
   padding: 10px;
 }
 
-.blueaboutblock {
+.bluebackground {
   background-color: #23c7cd;
+}
+
+.blueaboutblock {
   color: white;
   font-size: 1.2rem;
   padding: 2rem;
@@ -967,7 +964,7 @@ max-width: 100%;
 
 @media screen and (min-width: 768px) {
   .donatelabelbanner {
-    padding-top: 7rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
   }
 }

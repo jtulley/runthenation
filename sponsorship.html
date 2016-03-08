@@ -8,8 +8,9 @@
     <!-- Le styles -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="theme/style.css" rel="stylesheet" type="text/css" />
 
+    <script src="js/navrow.js"></script>
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -19,45 +20,41 @@
   <body>
   <div class="container-fluid">
     <div class="topnav">
-      <div class="row">
-        <div class="col-xs-12 col-sm-3" style="padding: 0px; min-width: 218px;">
-          <a href="index.html"><img src="/images/RunTheNationLogo.png" alt="Run The Nation" style="padding: 0.5rem;"></a>
+      <div class="row fullnavrow">
+        <div class="col-xs-5 col-sm-3 navlogo">
+          <a href="<?php echo site_url(); ?>"><img src="images/RunTheNationRedWhiteBlueLogo_text_side_1491x662.png" alt="Run The Nation"></a>
         </div>
-        <div class="col-xs-12 col-sm-7 navitemsrow"> 
-          <span class="navitem"><a href="lisasstory.html">LISA'S STORY</a></span>
-          <span class="navitem"><a href="thecause.html">THE CAUSE</a></span>
-          <span class="navitem" style="padding:0px 0px 0px 10px;"><div class="dropdown"><span>THE RUN<span class="dropdownarrow"> &#9660;</span></span>
-           <div class="dropdown-content">
-            <p><a href="crew.html">CREW</a></p>
-            <p><a href="course.html">COURSE</a></p>
-            </div>
-            </div>
-          </span>
-          <span class="navitem"><a href="livefeed.html">LIVE FEED</a></span>
-          <span class="navitem"><a href="blog.html">BLOG</a></span>
-          <span class="navitem"><a href="press.html">PRESS</a></span>
-	      </div>
-        <div class="col-xs-12 col-sm-1 center-block" style="padding-bottom: 5px; padding-top: 5px;">
-          <form class="form-inline" name="donate-form"><button type="submit" class="btn btn-primary center-block">DONATE</button></form>
+        <div class="col-xs-7 visible-xs hamburgergotorow"> 
+<a href="" onClick="toggleNavItemsDisplay(); return false;">
+<svg height="25px" version="1.1" viewBox="0 0 25 25" width="25px" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:xlink="http://www.w3.org/1999/xlink"><title/><desc/><defs/><g fill="none" fill-rule="evenodd" id="TabBar-Icons" stroke="none" stroke-width="1"><g fill="#000000" id="Hamburger-Round"><path d="M0,4 C0,2.8954305 0.889763236,2 2.00359486,2 L22.9964051,2 C24.10296,2 25,2.88772964 25,4 C25,5.1045695 24.1102368,6 22.9964051,6 L2.00359486,6 C0.897039974,6 0,5.11227036 0,4 L0,4 Z M0,12 C0,10.8954305 0.889763236,10 2.00359486,10 L22.9964051,10 C24.10296,10 25,10.8877296 25,12 C25,13.1045695 24.1102368,14 22.9964051,14 L2.00359486,14 C0.897039974,14 0,13.1122704 0,12 L0,12 Z M0,20 C0,18.8954305 0.889763236,18 2.00359486,18 L22.9964051,18 C24.10296,18 25,18.8877296 25,20 C25,21.1045695 24.1102368,22 22.9964051,22 L2.00359486,22 C0.897039974,22 0,21.1122704 0,20 L0,20 Z" id="Hamburger"/></g></g></svg>&nbsp;&nbsp;GO TO PAGE...</a>
+        </div>
+        <div class="col-xs-12 col-sm-9 navitemsrow" id="navitemsrow"> 
+            <span class="navitem"><a href="<?php echo site_url(); ?>/lisas-story/">LISA'S STORY</a></span>
+            <span class="navitem"><a href="<?php echo site_url(); ?>/the-cause/">THE CAUSE</a></span>
+            <span class="navitem" style="padding:0px 0px 0px 10px;"><div class="dropdown"><span>THE RUN<span class="dropdownarrow"> &#9660;</span></span>
+             <div class="dropdown-content">
+              <p><a href="<?php echo site_url(); ?>/crew/">CREW</a></p>
+              <p><a href="<?php echo site_url(); ?>/course/">COURSE</a></p>
+              <p><a href="<?php echo site_url(); ?>/theblog/?page_type=video">LIVE&nbsp;FEED</a></p>
+              </div>
+              </div>
+            </span>
+            <span class="navitem"><a href="<?php echo site_url(); ?>/sponsorship/</a></span>
+            <span class="navitem"><a href="<?php echo site_url(); ?>/theblog/">BLOG</a></span>
+            <span class="navitem"><a href="<?php echo site_url(); ?>/sponsorship/">SPONSORS</a></span>
+            <span class="navitem" style="padding:0px 0px 0px 10px;"><div class="dropdown"><span>PRESS<span class="dropdownarrow"> &#9660;</span></span>
+             <div class="dropdown-content">
+              <p><a href="<?php echo site_url(); ?>/press/">LISA IN THE PRESS</a></p>
+              <p><a href="<?php echo site_url(); ?>/press-inquiries/">PRESS INQUIRIES</a></p>
+              <p><a href="<?php echo site_url(); ?>/media-center">MEDIA CENTER</a></p>
+              </div>
+              </div>
+            </span>
+            <span class="navitem"><a href="<?php echo site_url(); ?>/contact-us/">CONTACT US</a></span>
+            <div class="topnavdonate"><a href="<?php echo site_url(); ?>/donate/"><button type="button" class="btn btn-primary center-block">DONATE</button></a></div>
         </div>
       </div>
     </div>
-    <div class="maincontent">
-      <div class="row">
-        <div class="col-xs-12 text-center sponsorshiplabelbanner">
-SPONSORSHIP
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-12 whitefullwidthblock darkgreytext text-center">
-           <p>As you can imagine, this journey is not possible without sponsors and support.  Many have asked how they can contribute.  Listed below are several different ways that you can help make this dream become a reality.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12" style="padding: 0px;">
-          <img src="/images/SponsorshipTitleSponsorBanner_900.png" alt=""/>
-        </div>
       </div>
       <div class="row">
         <div class="col-xs-12 whitefullwidthblock darkgreytext sponsordetails">
@@ -74,7 +71,7 @@ SPONSORSHIP
       </div>
       <div class="row">
         <div class="col-xs-12" style="padding: 0px;">
-          <img src="/images/SponsorshipAdditionalSponsorsBanner_900.png" alt=""/>
+          <img src="images/SponsorshipAdditionalSponsorsBanner_900.png" alt=""/>
         </div>
       </div>
       <div class="row">
@@ -95,7 +92,7 @@ SPONSORSHIP
       </div>
       <div class="row">
         <div class="col-xs-12" style="padding: 0px;">
-          <img src="/images/SponsorshipCurrentSponsorsBanner_900.png" alt=""/>
+          <img src="images/SponsorshipCurrentSponsorsBanner_900.png" alt=""/>
         </div>
       </div>
       <div class="row">
@@ -107,72 +104,72 @@ SPONSORSHIP
       <div class="row">
         <div class="col-xs-12 whitefullwidthblock darkgreytext">
           <div class="col-xs-6 col-sm-4 col-sm-3 currentsponsorimage">
-<a href="http://www.trailtoes.com/tire-trainer.html" target="_new"><img src="/images/SponsorsTireTrainerLogo.png" alt="Trail Toes Tire Trainer" title="Trail Toes Tire Trainer" /></a>
+<a href="http://www.trailtoes.com/tire-trainer.html" target="_new"><img src="images/SponsorsTireTrainerLogo.png" alt="Trail Toes Tire Trainer" title="Trail Toes Tire Trainer" /></a>
           </div>
         <div class="col-xs-6 col-sm-4 col-md-3 currentsponsorimage">
-<a href="http://www.trailtoes.com/" target="_new"><img src="/images/SponsorsTrailToesLogo.png" alt="Trail Toes" title="Trail Toes" /></a>
+<a href="http://www.trailtoes.com/" target="_new"><img src="images/SponsorsTrailToesLogo.png" alt="Trail Toes" title="Trail Toes" /></a>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-3 currentsponsorimage">
-<a href="http://www.coco5.com/" target="_new"><img src="/images/SponsorsCoco5Logo.png" alt="Coco5" title="Coco5" /></a>
+<a href="http://www.coco5.com/" target="_new"><img src="images/SponsorsCoco5Logo.png" alt="Coco5" title="Coco5" /></a>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-3 currentsponsorimage">
-<a href="http://www.shorechan.com/" target="_new"><img src="/images/SponsorsSCDLogo.png" alt="Shore Chan DePumpo" title="Shore Chan DePumpo" /></a>
+<a href="http://www.shorechan.com/" target="_new"><img src="images/SponsorsSCDLogo.png" alt="Shore Chan DePumpo" title="Shore Chan DePumpo" /></a>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-3 currentsponsorimage">
-<a href="https://www.nuskin.com/" target="_new"><img src="/images/SponsorsNuSkinLogo.png" alt="NuSkin" title="NuSkin" /></a>
+<a href="https://www.nuskin.com/" target="_new"><img src="images/SponsorsNuSkinLogo.png" alt="NuSkin" title="NuSkin" /></a>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-3 currentsponsorimage">
-<a href="http://saltstick.com/" target="_new"><img src="/images/SponsorsSaltStickLogo.png" alt="SaltStick" title="SaltStick" /></a>
+<a href="http://saltstick.com/" target="_new"><img src="images/SponsorsSaltStickLogo.png" alt="SaltStick" title="SaltStick" /></a>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-3 currentsponsorimage">
-<a href="http://www.cocoaelite.com/" target="_new"><img src="/images/SponsorsCocoaEliteLogo.png" alt="Cocoa Elite" title="Cocoa Elite" /></a>
+<a href="http://www.cocoaelite.com/" target="_new"><img src="images/SponsorsCocoaEliteLogo.png" alt="Cocoa Elite" title="Cocoa Elite" /></a>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-3 currentsponsorimage">
-<a href="http://crystalwealth.com/" target="_new"><img src="/images/SponsorsCWLogo.png" alt="Crystal Wealth" title="Crystal Wealth" /></a>
+<a href="http://crystalwealth.com/" target="_new"><img src="images/SponsorsCWLogo.png" alt="Crystal Wealth" title="Crystal Wealth" /></a>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-3 currentsponsorimage">
-<a href="http://setonlawgroup.com/" target="_new"><img src="/images/SponsorsSA-Logo.png" alt="Seton & Associates" title="Seton & Associates" /></a>
+<a href="http://setonlawgroup.com/" target="_new"><img src="images/SponsorsSA-Logo.png" alt="Seton & Associates" title="Seton & Associates" /></a>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-3 currentsponsorimage">
-<a href="http://www.damascusbakery.com/" target="_new"><img src="/images/SponsorsDamascusBakeriesLogo.png" alt="Damascus Bakeries" title="Damascus Bakeries"/></a>
+<a href="http://www.damascusbakery.com/" target="_new"><img src="images/SponsorsDamascusBakeriesLogo.png" alt="Damascus Bakeries" title="Damascus Bakeries"/></a>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-3 currentsponsorimage">
-<a href="http://www.gravityproconsulting.com/" target="_new"><img src="/images/SponsorsGravityPro.jpg" alt="Gravity Pro Consulting" title="Gravity Pro Consulting"/></a>
+<a href="http://www.gravityproconsulting.com/" target="_new"><img src="images/SponsorsGravityPro.jpg" alt="Gravity Pro Consulting" title="Gravity Pro Consulting"/></a>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-3 currentsponsorimage">
-<a href="http://www.everythingsmart.org/" target="_new"><img src="/images/SponsorsEverythingSmart.png" alt="EverythingSmart" title="EverythingSmart"/></a>
+<a href="http://www.everythingsmart.org/" target="_new"><img src="images/SponsorsEverythingSmart.png" alt="EverythingSmart" title="EverythingSmart"/></a>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-3 currentsponsorimage">
-<a href="http://www.conwaygoods.com/" target="_new"><img src="/images/SponsorsConwayElectricLogo.png" alt="Conway Electric" title="Conway Electric"/></a>
+<a href="http://www.conwaygoods.com/" target="_new"><img src="images/SponsorsConwayElectricLogo.png" alt="Conway Electric" title="Conway Electric"/></a>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-3 currentsponsorimage">
-<a href="http://www.gatorade.com/products/endurance" target="_new"><img src="/images/SponsorsGatoradeEnduranceLogo.png" alt="Gatorade Endurance" title="Gatorade Endurance"/></a>
+<a href="http://www.gatorade.com/products/endurance" target="_new"><img src="images/SponsorsGatoradeEnduranceLogo.png" alt="Gatorade Endurance" title="Gatorade Endurance"/></a>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-3 currentsponsorimage">
-<a href="" ><img src="/images/Sponsors1212GroupLogo.png" alt="1212 Group" title="1212 Group"/></a>
+<a href="" ><img src="images/Sponsors1212GroupLogo.png" alt="1212 Group" title="1212 Group"/></a>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-3 currentsponsorimage">
-<a href="https://www.nuskin.com/content/nuskin/en_US/home.html" target="_new"><img src="/images/SponsorsPharmanexLogo.png" alt="Pharmanex" title="Pharmanex"/></a>
+<a href="https://www.nuskin.com/content/nuskin/en_US/home.html" target="_new"><img src="images/SponsorsPharmanexLogo.png" alt="Pharmanex" title="Pharmanex"/></a>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-3 currentsponsorimage">
-<a href="https://www.nuskinops.com/opp/en_US/home/home.html" target="_new"><img src="/images/SponsorsNSDTBYLogo.png" alt="Nu Skin Discover The Best You" title="Nu Skin Discover The Best You"/></a>
+<a href="https://www.nuskinops.com/opp/en_US/home/home.html" target="_new"><img src="images/SponsorsNSDTBYLogo.png" alt="Nu Skin Discover The Best You" title="Nu Skin Discover The Best You"/></a>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-3 currentsponsorimage">
-<a href="http://www.dreamchaserevents.com/" target="_new"><img src="/images/SponsorsDreamchasersBlueOnWhiteLogo.jpg" alt="Dreamchaser Events" title="Dreamchaser Events"/></a>
+<a href="http://www.dreamchaserevents.com/" target="_new"><img src="images/SponsorsDreamchasersBlueOnWhiteLogo.jpg" alt="Dreamchaser Events" title="Dreamchaser Events"/></a>
         </div>
       </div>
       <div class="row" style="padding: 0px;">
         <div class="col-xs-3 imagecontainer">
-           <a href="thecause.html"><img src="/images/BottomBlockPicture1_225.png" alt="Lisa's Story"/></a>
+           <a href="thecause.html"><img src="images/BottomBlockPicture1_225.png" alt="Lisa's Story" style="width: 100%"/></a>
         </div>
         <div class="col-xs-3 imagecontainer">
-           <a href="crew.html"><img src="/images/BottomBlockPicture2_225.png" alt="Crew"/></a>
+           <a href="crew.html"><img src="images/BottomBlockPicture2_225.png" alt="Crew"/ style="width: 100%"></a>
         </div>
         <div class="col-xs-3 imagecontainer">
-           <a href="lisasstory.html"><img src="/images/BottomBlockPicture3_225.png" alt="Course"/></a>
+           <a href="lisasstory.html"><img src="images/BottomBlockPicture3_225.png" alt="Course"/ style="width: 100%"></a>
         </div>
         <div class="col-xs-3 imagecontainer">
-           <a href="sponsorship.html"><img src="/images/BottomBlockPicture4_225.png" alt="Sponsorship"/></a>
+           <a href="sponsorship.html"><img src="images/BottomBlockPicture4_225.png" alt="Sponsorship" style="width: 100%"/></a>
         </div>
       </div>
       <div class="row">
@@ -188,9 +185,9 @@ SPONSORSHIP
       <div class="row">
         <div class="col-xs-11 col-xs-offset-1 col-sm-offset-0 col-sm-3 footerlefttext">
           <p style="padding-left: 0px;">STAY CONNECTED</p>
-          <p><a href=""><img src="/images/SocialMedia_Facebook_White.png" style="padding-right: 5px" alt="" />FACEBOOK</a></p>
-          <p><a href=""><img src="/images/SocialMedia_Twitter_White.png" style="padding-right: 5px" alt="" />TWITTER</a></p>
-          <p><a href=""><img src="/images/SocialMedia_Instagram_White.png" style="padding-right: 5px" alt="" />INSTAGRAM</a></p>
+          <p><a href=""><img src="images/SocialMedia_Facebook_White.png" style="padding-right: 5px" alt="" />FACEBOOK</a></p>
+          <p><a href=""><img src="images/SocialMedia_Twitter_White.png" style="padding-right: 5px" alt="" />TWITTER</a></p>
+          <p><a href=""><img src="images/SocialMedia_Instagram_White.png" style="padding-right: 5px" alt="" />INSTAGRAM</a></p>
         </div>
         <div class="col-xs-12 col-sm-5 text-center footermiddletext">
           <div id="clockdiv">
@@ -219,6 +216,7 @@ SPONSORSHIP
           <p><a href="blog.html">BLOG</a></p>
           <p><a href="press.html">PRESS</a></p>
           <p><a href="sponsorship.html">SPONSORSHIP</a></p>
+          <p style="padding-top: 2.0rem;"><a href="http://www.obliquedesign.com">Site designed by<br />Oblique Design</a></p>
         </div>
       </div>
       <div class="row">

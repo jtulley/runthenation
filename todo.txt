@@ -1,7 +1,11 @@
 Things todo:
-Incorporate new logo graphic (rework nav bar??)
+darken some pictures
+Episodes page
+media page
+press inquiries page
+
+
 Make contact form prettier
-turn menu into hamburger in phone display
 Have Video stills start video
 image sizes where appropriate
 cull unused images
