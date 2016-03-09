@@ -1,7 +1,6 @@
 Things todo:
-darken some pictures
-Episodes page
-media page
+Episodes page (create an episode & way to create summaries)
+Plan for major sponsor placement?
 press inquiries page
 
 
