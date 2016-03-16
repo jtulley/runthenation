@@ -71,6 +71,7 @@
     </div>
   </div>
   <script src="/js/clock.js"></script>
+  <script src="js/courseutils.js"></script>
   <?php wp_footer(); ?>
   </body>
 </html>

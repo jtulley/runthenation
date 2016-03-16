@@ -16,7 +16,7 @@
 		<?php wp_head(); ?>
 
   </head>
-  <body>
+  <body onresize="handleResize()">
   <div class="container-fluid">
     <div class="topnav">
       <div class="row fullnavrow">

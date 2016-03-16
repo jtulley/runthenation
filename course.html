@@ -17,7 +17,7 @@
     <![endif]-->
 
   </head>
-  <body>
+  <body onresize="handleResize()">
   <div class="container-fluid">
     <div class="topnav">
       <div class="row fullnavrow">
@@ -69,7 +69,7 @@
       </div>
       <div class="row">
         <div class="col-xs-12 routemapbackgroundcolor" style="padding: 0px;">
-          <img src="/images/RouteFinalMap.png" style="padding: 20px; padding-bottom:0px; width: 100%; " alt=""/>
+          <canvas id="mapPointOverlay" style="width: 100px; height: 100px; border 1px solid green;  z-index: 100; display: none"  onclick="registerClick(event, this);"></canvas><img src="images/RouteFinalMap.png" id="routemapimage" style="padding: 0px; width: 100%;" onclick="registerClick(event, this);" alt=""/>
         </div>
       </div>
       <div class="row">
@@ -172,4 +172,6 @@
   </div>
   <script src="js/clock.js"></script>
   </body>
+  <script src="js/courseutils.js"></script>
+  <script>handleResize();</script>
 </html>
