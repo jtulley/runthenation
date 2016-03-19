@@ -140,6 +140,7 @@ html, body {
     line-height: 1.0rem;
   }
   .navitemsrow {
+    max-width: 675px;
     min-width: 675px;
     padding-top: 1.0rem;
     display:block !important;
@@ -336,6 +337,10 @@ html, body {
   font-size: 1.2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.blogmainsection img {
+  padding: 0.5rem;
 }
 
 .blogolderposts {
@@ -1018,4 +1023,13 @@ max-width: 100%;
   color: #f04f25;
   font-size: 1.1rem;
 }
+
+.alignright {
+  float: right;
+}
+
+.alignleft {
+  float: left;
+}
+
 

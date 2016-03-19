@@ -69,7 +69,7 @@
       </div>
       <div class="row">
         <div class="col-xs-12 routemapbackgroundcolor" style="padding: 0px;">
-          <canvas id="mapPointOverlay" style="width: 100px; height: 100px; border 1px solid green;  z-index: 100; display: none"  onclick="registerClick(event, this);"></canvas><img src="images/RouteFinalMap.png" id="routemapimage" style="padding: 0px; width: 100%;" onclick="registerClick(event, this);" alt=""/>
+          <canvas id="mapPointOverlay" style="width: 100px; height: 100px; border 1px solid green;  z-index: 100; display: none"  onclick="registerClick(event, this);"></canvas><img src="/images/RouteFinalMap.png" id="routemapimage" style="padding: 0px; width: 100%;" onclick="registerClick(event, this);" alt=""/>
         </div>
       </div>
       <div class="row">
@@ -79,8 +79,8 @@
       </div>
       <div class="row">
         <div class="col-xs-12 routemapdatarow">
-          <div class="routemapdata">
-            <span style="color: #2a739a">START: LOS ANGELES, CA</span><span style="color: #f04f25">END: SOME CITY, CA</span><span style="color: #393636">MILES: ??</span><span style="color: #393636">MILES TO GO: 3100</span>
+          <div class="routemapdata" id="routemapdata">
+            <span style="color: #2a739a" id="routestartcity">START: LOS ANGELES, CA</span><span style="color: #f04f25" id="routeendcity">END: SOME CITY, CA</span><span style="color: #393636" id="routemiles">MILES: ??</span><span style="color: #393636" id="routemilestogo">MILES TO GO: 3100</span>
           </div>
         </div>
       </div>
@@ -90,9 +90,10 @@
       </div>
       <div class="row">
         <div class="col-xs-12" style="padding: 0px;">
-          <img src="images/RouteInfoGraphicMilesEtc_900.png" style="padding: 0px; width: 100%; " alt=""/>
+          <img src="/images/RouteInfoGraphicMilesEtc_900.png" style="padding: 0px; width: 100%; " alt=""/>
         </div>
       </div>
+      <script src="js/courseutils.js"></script>
       <div class="row">
         <div class="col-xs-12 lightcyanfullwidthblock darkgreytext text-center">
            <p><b>LISA SMITH-BATCHEN</b> will attempt to break the overall Transcontinental coast-to-coast speed record, set by Frank Giannino in 1980. Lisa will begin in Los Angeles, California on April 24, 2016 at 6:00 a.m. PDT, and conclude in New York City.  During that time, she will cover more than 3100 miles.  To break the current record, Lisa will have to cover more than 50-68 miles per day, in less than the current record of 46 days and 8 hours, a feat she is well qualified to accomplish.  Having raised several million dollars for charities over the course of her career, Lisa Smith-Batchen has proven her committment and dedication to improving the lives of those in need.  She has every confidence that she will accomplish this goal, and would love for you to join her in this project to rais money for this wonderful organization.</p>
@@ -172,6 +173,5 @@
   </div>
   <script src="js/clock.js"></script>
   </body>
-  <script src="js/courseutils.js"></script>
   <script>handleResize();</script>
 </html>

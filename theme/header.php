@@ -9,6 +9,9 @@
 		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link href="<?php echo site_url(); ?>/wp-content/themes/theme/style.css" rel="stylesheet" type="text/css" />
 
+    <script src="/js/navrow.js"></script>
+    <script src="/js/dummy.js"></script>
+
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -20,14 +23,15 @@
   <div class="container-fluid">
     <div class="topnav">
       <div class="row fullnavrow">
-        <div class="col-xs-12 col-sm-3 navlogo">
-          <a href="<?php echo site_url(); ?>"><img src="/images/RunTheNationLogo.png" alt="Run The Nation" style="padding: 0.5rem;"></a>
+        <div class="col-xs-5 col-sm-3 navlogo">
+          <a href="<?php echo site_url(); ?>"><img src="/images/RunTheNationRedWhiteBlueLogo_text_side_1491x662.png" alt="Run The Nation"></a>
         </div>
-        <div class="col-xs-12 visible-xs-block">
-Go To     (hamburger)
+        <div class="col-xs-7 visible-xs hamburgergotorow"> 
+<a href="" onClick="toggleNavItemsDisplay(); return false;">
+<svg height="25px" version="1.1" viewBox="0 0 25 25" width="25px" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:xlink="http://www.w3.org/1999/xlink"><title/><desc/><defs/><g fill="none" fill-rule="evenodd" id="TabBar-Icons" stroke="none" stroke-width="1"><g fill="#000000" id="Hamburger-Round"><path d="M0,4 C0,2.8954305 0.889763236,2 2.00359486,2 L22.9964051,2 C24.10296,2 25,2.88772964 25,4 C25,5.1045695 24.1102368,6 22.9964051,6 L2.00359486,6 C0.897039974,6 0,5.11227036 0,4 L0,4 Z M0,12 C0,10.8954305 0.889763236,10 2.00359486,10 L22.9964051,10 C24.10296,10 25,10.8877296 25,12 C25,13.1045695 24.1102368,14 22.9964051,14 L2.00359486,14 C0.897039974,14 0,13.1122704 0,12 L0,12 Z M0,20 C0,18.8954305 0.889763236,18 2.00359486,18 L22.9964051,18 C24.10296,18 25,18.8877296 25,20 C25,21.1045695 24.1102368,22 22.9964051,22 L2.00359486,22 C0.897039974,22 0,21.1122704 0,20 L0,20 Z" id="Hamburger"/></g></g></svg>&nbsp;&nbsp;GO TO PAGE...</a>
         </div>
-        <div class="col-xs-12 col-sm-9 navitemsrow"> 
-          <div class="smandlargerscreennav>
+        <div class="col-xs-12 col-sm-9 navitemsrow" id="navitemsrow">
+            <span class="navitem visible-xs"><a href="<?php echo site_url(); ?>">HOME</a></span> 
             <span class="navitem"><a href="<?php echo site_url(); ?>/lisas-story/">LISA'S STORY</a></span>
             <span class="navitem"><a href="<?php echo site_url(); ?>/the-cause/">THE CAUSE</a></span>
             <span class="navitem" style="padding:0px 0px 0px 10px;"><div class="dropdown"><span>THE RUN<span class="dropdownarrow"> &#9660;</span></span>
@@ -50,8 +54,7 @@ Go To     (hamburger)
               </div>
             </span>
             <span class="navitem"><a href="<?php echo site_url(); ?>/contact-us/">CONTACT US</a></span>
-          </div>
-          <div class="topnavdonate"><a href="<?php echo site_url(); ?>/donate/"><button type="button" class="btn btn-primary center-block">DONATE</button></a></div>
+            <div class="topnavdonate"><a href="<?php echo site_url(); ?>/donate/"><button type="button" class="btn btn-primary center-block">DONATE</button></a></div>
         </div>
       </div>
     </div>
