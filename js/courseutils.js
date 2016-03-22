@@ -89,15 +89,25 @@ function setCityData() {
   var endCitySpan = document.getElementById('routeendcity');
   var routeMilesSpan = document.getElementById('routemiles');
   var milesToGoSpan = document.getElementById('routemilestogo');
+  var routeDaySpan = document.getElementById('routeday');
 	if (clickNumber == 0) {
   	startCitySpan.innerHTML = "START: Los Angeles, CA";
 	} else {
     startCitySpan.innerHTML = "START: " + destMap[clickNumber - 1]["endCity"] + ", " + destMap[clickNumber - 1]["endState"];
 	}
   if (destMap[clickNumber]) {
-		endCitySpan.innerHTML = "END: " + destMap[clickNumber]["endCity"] + ", " + destMap[clickNumber]["endState"];
-		routeMilesSpan.innerHTML = "MILES: " + destMap[clickNumber]["dailyMiles"];
-		milesToGoSpan.innerHTML = "MILES TO GO: " + destMap[clickNumber]["milesToGo"];
+    if (clickNumber == 46) {
+			endCitySpan.innerHTML = "DONE!";
+			routeMilesSpan.innerHTML = "MILES TODAY: 0";
+			milesToGoSpan.innerHTML = "MILES TO GO: 0";
+			routeDaySpan.innerHTML = "FINISHED";
+
+    }  else {
+			endCitySpan.innerHTML = "END: " + destMap[clickNumber]["endCity"] + ", " + destMap[clickNumber]["endState"];
+			routeMilesSpan.innerHTML = "MILES TODAY: " + destMap[clickNumber]["dailyMiles"];
+			milesToGoSpan.innerHTML = "MILES TO GO: " + destMap[clickNumber]["milesToGo"];
+			routeDaySpan.innerHTML = "DAY " + destMap[clickNumber]["day"]; // TODO: convert to text
+    }
   }
   
 }
