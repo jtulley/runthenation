@@ -1,6 +1,6 @@
       <div class="row" style="padding: 0px;">
         <div class="col-xs-3 imagecontainer">
-           <a href="<?php echo site_url(); ?>/the-cause/"><img src="/images/BottomBlockPicture1.png" alt="Cause" style="width: 100%"/></a>
+           <a href="<?php echo site_url(); ?>/course/"><img src="/images/BottomBlockPicture1.png" alt="Course" style="width: 100%"/></a>
         </div>
         <div class="col-xs-3 imagecontainer">
            <a href="<?php echo site_url(); ?>/crew/"><img src="/images/BottomBlockPicture2.png" alt="Crew" style="width: 100%"/></a>
@@ -53,7 +53,7 @@
         </div>
         <div class="col-xs-11  col-xs-offset-4 col-sm-offset-1  col-sm-3 footerrighttext">
           <p><a href="<?php echo site_url(); ?>/lisas-story/">LISA'S STORY</a></p>
-          <p><a href="<?php echo site_url(); ?>/the-cause/">THE CAUSE</a></p>
+          <!--<p><a href="<?php echo site_url(); ?>/the-cause/">THE CAUSE</a></p>-->
           <p><a href="<?php echo site_url(); ?>/theblog/">BLOG</a></p>
           <p><a href="<?php echo site_url(); ?>/press/">PRESS</a></p>
           <p><a href="<?php echo site_url(); ?>/sponsorship/">SPONSORSHIP</a></p>
@@ -72,7 +72,7 @@
     </div>
   </div>
   <script src="/js/clock.js"></script>
-  <script>handleResize();</script>
+  <script>setTimeout(function(){ handleResize(); });</script>
   <?php wp_footer(); ?>
   </body>
 </html>

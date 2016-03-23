@@ -33,7 +33,7 @@
         <div class="col-xs-12 col-sm-9 navitemsrow" id="navitemsrow">
             <span class="navitem visible-xs"><a href="<?php echo site_url(); ?>">HOME</a></span> 
             <span class="navitem"><a href="<?php echo site_url(); ?>/lisas-story/">LISA'S STORY</a></span>
-            <span class="navitem"><a href="<?php echo site_url(); ?>/the-cause/">THE CAUSE</a></span>
+            <!--<span class="navitem"><a href="<?php echo site_url(); ?>/the-cause/">THE CAUSE</a></span>-->
             <span class="navitem" style="padding:0px 0px 0px 10px;"><div class="dropdown"><span>THE RUN<span class="dropdownarrow"> &#9660;</span></span>
              <div class="dropdown-content">
               <p><a href="<?php echo site_url(); ?>/crew/">CREW</a></p>
