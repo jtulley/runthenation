@@ -667,6 +667,10 @@ a.readmore {
   min-height: 245px;
 }
 
+.orangebackground {
+  background-color: #ff9c08;
+}
+
 .orangeblock {
   background-color: #ff9c08;
   padding: 38px;
