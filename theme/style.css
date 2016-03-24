@@ -673,9 +673,8 @@ a.readmore {
 
 .orangeblock {
   background-color: #ff9c08;
-  padding: 38px;
+  padding-top: 1.0rem;
   color: white;
-  min-height: 245px;
 }
 
 .orangeblock > a {
@@ -979,7 +978,6 @@ max-width: 100%;
 }
 
 .donatemainsection {
-  width: 100%;
   background-color: white;
   color: #393636;
   font-size: 1rem;
