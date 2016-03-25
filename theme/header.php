@@ -38,7 +38,7 @@
              <div class="dropdown-content">
               <p><a href="<?php echo site_url(); ?>/crew/">CREW</a></p>
               <p><a href="<?php echo site_url(); ?>/course/">COURSE</a></p>
-              <p><a href="<?php echo site_url(); ?>/theblog/?page_type=video">LIVE&nbsp;FEED</a></p>
+              <!--<p><a href="<?php echo site_url(); ?>/theblog/?page_type=video">LIVE&nbsp;FEED</a></p>-->
               </div>
               </div>
             </span>
