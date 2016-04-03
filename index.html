@@ -10,6 +10,7 @@
     <link href="theme/style.css" rel="stylesheet" type="text/css" />
 
     <script src="js/navrow.js"></script>
+    <script src="/js/dummy.js"></script>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -18,10 +19,10 @@
     <?php wp_head(); ?>
 
   </head>
-  <body>
+  <body onresize="handleResize()">
   <div class="container-fluid">
     <div class="topnav">
-      <div class="row-fluid fullnavrow">
+      <div class="row fullnavrow">
         <div class="col-xs-5 col-sm-3 navlogo">
           <a href="<?php echo site_url(); ?>"><img src="images/RunTheNationRedWhiteBlueLogo_text_side_1491x662.png" alt="Run The Nation"></a>
         </div>
@@ -30,14 +31,14 @@
 <svg height="25px" version="1.1" viewBox="0 0 25 25" width="25px" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:xlink="http://www.w3.org/1999/xlink"><title/><desc/><defs/><g fill="none" fill-rule="evenodd" id="TabBar-Icons" stroke="none" stroke-width="1"><g fill="#000000" id="Hamburger-Round"><path d="M0,4 C0,2.8954305 0.889763236,2 2.00359486,2 L22.9964051,2 C24.10296,2 25,2.88772964 25,4 C25,5.1045695 24.1102368,6 22.9964051,6 L2.00359486,6 C0.897039974,6 0,5.11227036 0,4 L0,4 Z M0,12 C0,10.8954305 0.889763236,10 2.00359486,10 L22.9964051,10 C24.10296,10 25,10.8877296 25,12 C25,13.1045695 24.1102368,14 22.9964051,14 L2.00359486,14 C0.897039974,14 0,13.1122704 0,12 L0,12 Z M0,20 C0,18.8954305 0.889763236,18 2.00359486,18 L22.9964051,18 C24.10296,18 25,18.8877296 25,20 C25,21.1045695 24.1102368,22 22.9964051,22 L2.00359486,22 C0.897039974,22 0,21.1122704 0,20 L0,20 Z" id="Hamburger"/></g></g></svg>&nbsp;&nbsp;GO TO PAGE...</a>
         </div>
         <div class="col-xs-12 col-sm-9 navitemsrow" id="navitemsrow"> 
-            <span class="navitem"><a href="<?php echo site_url(); ?>">HOME</a></span>
+            <span class="navitem visible-xs"><a href="<?php echo site_url(); ?>">HOME</a></span> 
             <span class="navitem"><a href="<?php echo site_url(); ?>/lisas-story/">LISA'S STORY</a></span>
-            <!--<span class="navitem"><a href="<?php echo site_url(); ?>/the-cause/">THE CAUSE</a></span>-->
+            <span class="navitem"><a href="<?php echo site_url(); ?>/the-cause/">THE CAUSE</a></span>
             <span class="navitem" style="padding:0px 0px 0px 10px;"><div class="dropdown"><span>THE RUN<span class="dropdownarrow"> &#9660;</span></span>
              <div class="dropdown-content">
               <p><a href="<?php echo site_url(); ?>/crew/">CREW</a></p>
               <p><a href="<?php echo site_url(); ?>/course/">COURSE</a></p>
-              <p><a href="<?php echo site_url(); ?>/theblog/?page_type=video">LIVE&nbsp;FEED</a></p>
+              <!--<p><a href="<?php echo site_url(); ?>/theblog/?page_type=video">LIVE&nbsp;FEED</a></p>-->
               </div>
               </div>
             </span>
@@ -48,22 +49,29 @@
              <div class="dropdown-content">
               <p><a href="<?php echo site_url(); ?>/press/">LISA IN THE PRESS</a></p>
               <p><a href="<?php echo site_url(); ?>/press-inquiries/">PRESS INQUIRIES</a></p>
-              <p><a href="<?php echo site_url(); ?>/media-center">MEDIA CENTER</a></p>
+              <p><a href="<?php echo site_url(); ?>/media-center/">MEDIA CENTER</a></p>
               </div>
               </div>
             </span>
             <span class="navitem"><a href="<?php echo site_url(); ?>/contact-us/">CONTACT US</a></span>
-            <div class="topnavdonate"><a href="<?php echo site_url(); ?>/donate/"><button type="button" class="btn btn-primary center-block">DONATE</button></a></div>
+            <span class="navitem" style="padding:0px 0px 0px 10px;"><div class="dropdown"><button type="button" class="btn btn-primary center-block hidden-xs"">DONATE</button>
+             <div class="dropdown-content">
+              <p><a href="https://app.mobilecause.com/form/35bo0A" target="_new">DONATE TO THE TYLER ROBINSON FOUNDATION</a></p>
+              <p><a href="<?php echo site_url(); ?>/donate/">DONATE TO THE RUN</a></p>
+              <p><a href="http://bit.ly/HelpRTN" target="_new">VOLUNTEER TO HELP WITH THE RUN</a></p>
+              </div>
+              </div>
+            </span>
         </div>
       </div>
     </div>
     <div class="maincontent">
       <div class="row">
         <div class="col-xs-12 col-sm-8" style="position: relative; padding: 0px;">
-          <img src="/images/MainPageTopVideo_with_text_no_vid_button.png" style="padding: 0px; width: 100%; " alt=""/>
+          <img src="images/MainPageTopVideo_with_text_no_vid_button.png" style="padding: 0px; width: 100%; " alt=""/>
         </div>
         <div class="col-xs-offset-1 col-xs-11 col-sm-offset-0 col-sm-4" id="topclockdiv">
-          <img src="/images/TRFA_White_On_Black_Logo_Trimmed.png" alt="Tyler Robinson Foundation Logo" style="padding: 1.0rem;" />
+          <img src="images/TRFA_White_On_Black_Logo_Trimmed.png" alt="Tyler Robinson Foundation Logo" style="padding: 1.0rem;" />
           <p class="introText">RECORD BREAKING BEGINS IN</p>
           <div>
             <span class="days"></span><span>:</span>
@@ -97,15 +105,15 @@
 <p>The Tyler Robinson Foundation was started by the world famous Band "Imagine Dragons" in honor of one of their biggest fans, Tyler Robinson, who passed away at such a young age from a rare form of cancer.</p>
            <p>The mission of The Tyler Robinson Foundation is to strengthen families financially and emotionally as they cope with the tragedy of a pediatric cancer diagnosis by providing hope, information, and relief through financial services, caring volunteers, and monetary grants</p>
 
-<a href="/the-cause/" style="padding-right: 3.0rem;">LEARN MORE >></a><a href="https://app.mobilecause.com/form/35bo0A" _target="new"><button type="button" class="btn btn-primary">DONATE</button></a>
+<a href="/the-cause/" style="padding-right: 3.0rem;">LEARN MORE >></a><a href="https://app.mobilecause.com/form/35bo0A" target="_new"><button type="button" class="btn btn-primary">DONATE</button></a>
         </div>
         <div class="col-xs-12 col-sm-5 text-center" style="padding: 0px">
-          <img src="/images/TRFBandAndKids.jpg" alt="Imagine Dragons and the Tyler Robinson Foundation"  />
+          <img src="images/TRFBandAndKids.jpg" alt="Imagine Dragons and the Tyler Robinson Foundation"  />
         </div>
       </div>
       <div class="row bluebackground">
         <div class="col-xs-12 col-sm-5 col-sm-5"  style="padding: 0px;">
-          <img src="/images/MainPageMainBlockLisaBW_320.png" style="padding: 0px; width: 100%; min-height: 344px" alt=""/>
+          <img src="images/MainPageMainBlockLisaBW_320.png" style="padding: 0px; width: 100%; min-height: 344px" alt=""/>
         </div>
         <div class="col-xs-12 col-sm-7 blueaboutblock" >
 <h1>ABOUT LISA</h1>
