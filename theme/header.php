@@ -54,7 +54,7 @@
               </div>
             </span>
             <span class="navitem"><a href="<?php echo site_url(); ?>/contact-us/">CONTACT US</a></span>
-            <span class="navitem" style="padding:0px 0px 0px 10px;"><div class="dropdown"><button type="button" class="btn btn-primary center-block hidden-xs"">DONATE</button>
+            <span class="navitem" style="padding:0px 0px 0px 10px;"><div class="dropdown"><button type="button" class="btn btn-primary center-block hidden-xs"">DONATE<span class="dropdownarrow"> &#9660;</span></button>
              <div class="dropdown-content">
               <p><a href="https://app.mobilecause.com/form/35bo0A" target="_new">DONATE TO THE TYLER ROBINSON FOUNDATION</a></p>
               <p><a href="<?php echo site_url(); ?>/donate/">DONATE TO THE RUN</a></p>

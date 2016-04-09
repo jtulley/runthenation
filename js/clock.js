@@ -56,7 +56,7 @@ function initializeClock(id, endtime, centerClockDiv) {
   var timeinterval = setInterval(function() { updateClock(id, endtime, centerClockDiv); }, 1000);
 }
 
-var deadline = new Date(Date.UTC(2016, 3, 24, 13, 0, 0, 0));
+var deadline = new Date(Date.UTC(2016, 3, 24, 13, 12, 0, 0));
 initializeClock('topclockdiv', deadline, false);
 initializeClock('clockdiv', deadline, false);
 

@@ -806,14 +806,15 @@ max-width: 100%;
 
 .topclockdiv {
  padding: 2rem;
- padding-top: 0rem;
- position: relative;
+ padding-top: 1.0rem;
+ position: absolute;
+    z-index: 3;
 }
 
 @media screen and (min-width: 768px) {
   .topclockdiv {
     position: absolute;
-    padding: 5rem 2rem 10rem 0rem;
+    padding: 2rem 2rem 10rem 0rem;
     z-index: 3;
   }
 }
