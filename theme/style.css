@@ -140,13 +140,13 @@ html, body {
     line-height: 1.0rem;
   }
   .navitemsrow {
-    max-width: 675px;
-    min-width: 675px;
+    max-width: 760px;
+    min-width: 760px;
     padding-top: 1.0rem;
     display:block !important;
   }
   .fullnavrow {
-    min-width: 900px;
+    min-width: 937px;
   }
 }
 
