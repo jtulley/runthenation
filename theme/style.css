@@ -60,20 +60,18 @@ html, body {
 }
 
 .topnavdonate {
-  padding-top: 10px;
+  padding: 0rem !important;
+  padding-left: 1rem !important;
 }
 
 @media screen and (min-width: 768px) {
   .topnavdonate {
-    display: inline-block;
-    padding-left: 10px;
+    padding-left: 5rem !important;
   }
 }
 
 .navitemsrow {
   padding: 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   display: none;
 }
 
@@ -117,7 +115,7 @@ html, body {
   padding: 0px;
   border: 1px solid #404040;
   background-color: #444444;
-  padding: 10px;
+  padding: 1.0rem;
   margin: 0px;
   display: block;
   clear: both;
@@ -134,11 +132,15 @@ html, body {
     background-color: black;
     border: none;
     padding: 0px;
-    padding-left: 10px;
+    padding-left: 1.0rem;
     display: inline-block;
     clear: none;
     line-height: 1.0rem;
   }
+	#crewnavitem {
+		padding-left: 1.6rem; // hack to get alignment
+	}
+
   .navitemsrow {
     max-width: 760px;
     min-width: 760px;
@@ -991,6 +993,14 @@ max-width: 100%;
 }
 
 .donatemainsection {
+  background-color: white;
+  color: #393636;
+  font-size: 1rem;
+  padding: 0px;
+  font-size: 1.2rem;
+}
+
+.dealsmainsection {
   background-color: white;
   color: #393636;
   font-size: 1rem;

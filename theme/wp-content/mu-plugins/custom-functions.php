@@ -89,6 +89,21 @@ function my_pagination() {
 
 }
 
+function get_run_day_number()
+{
+  date_default_timezone_set('PDT'); // CDT
+  $info = getdate(); 
+  $year = $info['year'];
+  $month = $info['mon'];
+  $day = $info['mday'];
+  $current_date = "$year-$month-$day";
+  $start_date = "2016-4-23"; /** off a day on purpose */
+  $date1 = new DateTime($start_date);
+  $date2 = new DateTime();
+  $interval = $date1->diff($date2, true);
+  return intval($interval->format('%a'));
+}
+
 function add_query_vars_filter( $vars ){
   $vars[] = "page_type";
   return $vars;

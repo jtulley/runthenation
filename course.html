@@ -57,6 +57,12 @@
       </div>
     </div>
     <div class="maincontent">
+      <script src="js/courseutils.js"></script>
+      <script>
+handleResize({startCityNumber: [php_everywhere] }); // <?php get_run_day_number() ?>
+// if the automatic data does not work, uncomment the following, and set the start/finish/mile data manually: (startCityNumber is the day number)
+//handleResize({startCityNumber: 2, startCity:"Montclair", startState: "CA", endCity: "Cabazon", endState: "CA", milesToday: 55, milesToGo: 2948});
+</script>
       <div class="row">
         <div class="col-xs-12" style="padding: 0px;">
           <img src="images/RouteTopBigPictureCourse_900.png" style="padding: 0px; width: 100%; " alt=""/>
@@ -68,6 +74,11 @@
         </div>
       </div>
       <div class="row">
+        <div class="col-xs-12 routemapbackgroundcolor" style="padding: 0px; padding-top: 2.0rem; padding-bottom: 2.0rem; padding-left: 1.0rem;">
+           <span style="color: #393636; font-size: 1.7rem; padding-left: 12px;">RETURN TO THIS PAGE TO SEE LISA'S PROGRESS LIVE</span>
+        </div>
+      </div>
+      <!--<div class="row">
         <div class="col-xs-12 routemapbackgroundcolor" style="padding: 0px;">
           <canvas id="mapPointOverlay" style="width: 100px; height: 100px; border 1px solid green;  z-index: 100; display: none"  onclick="registerClick(event, this);"></canvas><img src="images/RouteFinalMap.png" id="routemapimage" style="padding: 0px; width: 100%;" onclick="registerClick(event, this);" alt=""/>
         </div>
@@ -76,7 +87,20 @@
         <div class="col-xs-12 routemapbackgroundcolor" style="padding: 0px; padding-bottom: 5px;">
            <span style="color: #393636; font-size: 1.7rem; padding-left: 12px;" id="routeday">NOT STARTED YET</span>
         </div>
+      </div>-->
+			<div class="row">
+				<div class="col-xs-12 routemapbackgroundcolor" style="padding: 0px;padding-left: 2.0rem; padding-right: 2.0rem"><center><iframe src="https://share.delorme.com/RunTheNation" frameborder="0" marginwidth="0" marginheight="0" width="100%" height="760"></iframe></center>
+				</div>
+			</div>
+      <div class="row">
+        <div class="col-xs-12 routemapbackgroundcolor" style="padding: 0px; padding-top: 2.0rem; padding-bottom: 2.0rem;">
+           <span style="color: #393636; font-size: 1.7rem; padding-left: 12px;">DETAILS ON LISA'S PLANNED ROUTE:</span>
+        </div>
       </div>
+<div class="row">
+<div class="col-xs-12 routemapbackgroundcolor" style="padding: 0px;"><center><iframe src="http://seejohnrun.com/RunTheNationRoute.html" width="95%" height="500" align="center" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></center>
+</div>
+</div>
       <div class="row">
         <div class="col-xs-12 routemapdatarow">
           <div class="routemapdata" id="routemapdata">
@@ -93,10 +117,9 @@
           <img src="/images/RouteInfoGraphicMilesEtc_900.png" style="padding: 0px; width: 100%; " alt=""/>
         </div>
       </div>
-      <script src="js/courseutils.js"></script>
       <div class="row">
         <div class="col-xs-12 lightcyanfullwidthblock darkgreytext text-center">
-           <p><b>LISA SMITH-BATCHEN</b> will attempt to break the overall Transcontinental coast-to-coast speed record, set by Frank Giannino in 1980. Lisa will begin in Los Angeles, California on April 24, 2016 at 6:00 a.m. PDT, and conclude in New York City.  During that time, she will cover more than 3100 miles.  To break the current record, Lisa will have to cover more than 50-68 miles per day, in less than the current record of 46 days and 8 hours, a feat she is well qualified to accomplish.  Having raised several million dollars for charities over the course of her career, Lisa Smith-Batchen has proven her committment and dedication to improving the lives of those in need.  She has every confidence that she will accomplish this goal, and would love for you to join her in this project to rais money for this wonderful organization.</p>
+           <p><b>LISA SMITH-BATCHEN</b> will attempt to break the overall Transcontinental coast-to-coast speed record, set by Frank Giannino in 1980. Lisa will begin in Los Angeles, California on April 24, 2016 at 6:00 a.m. PDT, and conclude in New York City.  During that time, she will cover more than 3100 miles.  To break the current record, Lisa will have to cover more than 50-68 miles per day, in less than the current record of 46 days and 8 hours, a feat she is well qualified to accomplish.  Having raised several million dollars for charities over the course of her career, Lisa Smith-Batchen has proven her committment and dedication to improving the lives of those in need.  She has every confidence that she will accomplish this goal, and would love for you to join her in this project to raise money for this wonderful organization.</p>
         </div>
       </div>
       <div class="row" style="padding: 0px;">

@@ -1,4 +1,9 @@
 Things todo:
+
+Put back in day number
+Create states fundraising pages
+get TRF the countup timer
+
 Episodes page (create an episode & way to create summaries)
 convert day on route map to text( "DAY TWELVE" instead of "DAY 12")
 Plan for major sponsor placement?

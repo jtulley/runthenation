@@ -1,11 +1,15 @@
 toggleNavItemsDisplay = function ()
 {
-  var navrow = document.getElementById('navitemsrow');
-  if (navrow.style.display === "block")
+  var navrows = document.getElementsByClassName('navitemsrow');
+  var i;
+  for (i = 0; i < navrows.length; i++) 
   {
-    navrow.style.display="none";
-  } else
-  {
-    navrow.style.display="block";
+		if (navrows[i].style.display === "block")
+		{
+			navrows[i].style.display="none";
+		} else
+		{
+			navrows[i].style.display="block";
+		}
   }
 }
