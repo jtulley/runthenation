@@ -831,6 +831,8 @@ max-width: 100%;
 
 #clockdiv > p, #topclockdiv > p {
     color: #bcc732;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 #clockdiv > div, #topclockdiv > div {

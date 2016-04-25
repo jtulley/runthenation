@@ -1,9 +1,9 @@
 Things todo:
 
-Put back in day number
 Create states fundraising pages
-get TRF the countup timer
+Put back in day number
 blog post forward and back links with styling(color) preserved
+make next and back divits bigger!
 
 Episodes page (create an episode & way to create summaries)
 convert day on route map to text( "DAY TWELVE" instead of "DAY 12")
