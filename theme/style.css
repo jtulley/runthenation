@@ -380,12 +380,13 @@ a.readmore {
   color: #393636;
 }
 
-.blogentry > h1 {
+.blogentry > h1 > a, .blogentry > h1 {
   color: #b6c132;
-  font-size: 2.0rem;
+  font-size: 1.5rem;
   font-weight: bold;
-  line-height: 3.0rem;
+  line-height: 2.0rem;
   padding: 0px;
+  padding-top: 0.5rem;
   margin: 0px;
 }
 

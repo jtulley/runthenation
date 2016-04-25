@@ -9,7 +9,7 @@ BLOG
       </div>
       <div class="row">
         <div class="col-xs-12 blogolderposts">
-<?php previous_post_link() ?>&nbsp;&nbsp;<?php next_post_link() ?>
+<?php previous_post_link() ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php next_post_link() ?>
         </div>
       </div>
       <div class="row" style="padding: 0px">

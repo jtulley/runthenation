@@ -65,7 +65,7 @@ endif;
           <div class="col-xs-12 col-sm-8 blogentry">
             <div class="blogentrydate"><?php the_time('j.M.y'); ?></div>
             <hr />
-            <h1><?php the_title(); ?></h1>
+            <h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
             <p><?php the_excerpt(); ?><a href="<?php the_permalink(); ?>" class="readmore">READ MORE >></a></p>
 <!-- need to figure these out:
             <img src="images/SocialMedia_Facebook_Blue.png" alt="Share on Facebook" title="Share on Facebook" />
