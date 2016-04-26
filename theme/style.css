@@ -19,8 +19,8 @@ html {
 body { 
     background-color: black;
     font-weight: bold;
-		font-size: 12px;
-		font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
 }
@@ -1060,4 +1060,29 @@ max-width: 100%;
   float: left;
 }
 
+.californiamap {
+   background-color: white;
+   background: url("/images/californiaBG.png") center center no-repeat;
+   opacity: .1;
+   background-size: 40%;
+
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   width: 100%;
+   max-width: 90rem;
+   max-height: 100%;
+}
+
+.statedonations {
+  font-size: 1.6rem;
+	color: black;
+  position: relative;
+  z-index: 1;
+  min-height: 40rem;
+  padding-left: 2.0rem;
+}
 

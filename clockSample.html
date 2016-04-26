@@ -1,0 +1,67 @@
+<html>
+<head>
+<style>
+
+.introText {
+  line-height: 1.0rem;
+  padding: 0px;
+}
+
+#clockdiv {
+    display: inline-block;
+    font-weight: 100;
+}
+
+#clockdiv > p {
+    color: #bcc732;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#clockdiv > div {
+    padding: 0px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+#clockdiv div > span {
+    padding: 2px;
+    border-radius: 3px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 2.0rem;
+    display: inline-block;
+}
+
+.clocksmalltext {
+    padding-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #bcc732;
+}
+
+</style>
+</head>
+<body>
+
+<div id="clockdiv">
+	<p class="introText">RECORD BREAKING BEGINS IN</p>
+	<div>
+		<span class="days"></span><span>:</span>
+		<div class="clocksmalltext">DAYS</div>
+	</div>
+	<div>
+		<span class="hours"></span><span>:</span>
+		<div class="clocksmalltext">HOURS</div>
+	</div>
+	<div>
+		<span class="minutes"></span><span>:</span>
+		<div class="clocksmalltext">MINUTES</div>
+	</div>
+	<div>
+		<span class="seconds"></span>
+		<div class="clocksmalltext">SECONDS</div>
+	</div>
+</div>
+<script src="js/clock.js"></script>
+</body>
+</html>
