@@ -91,7 +91,7 @@ function my_pagination() {
 
 function get_run_day_number()
 {
-  date_default_timezone_set('PDT'); // CDT
+  date_default_timezone_set('PDT');
   $info = getdate(); 
   $year = $info['year'];
   $month = $info['mon'];
@@ -110,3 +110,5 @@ function add_query_vars_filter( $vars ){
 }
 
 add_filter( 'query_vars', 'add_query_vars_filter' );
+
+?>

@@ -82,11 +82,11 @@
 <div class="californiamap"></div>
 <p style="padding-top: 5.0rem;">Lisa will run 270.43 miles in California</p>
 <p>Donations to the run from California so far: $0.<br />
-<a href="">See how this compares to other states.</a></p>
+<!--<a href="">See how this compares to other states.</a>--></p>
 <br />
 <p>Will you help us achieve our donation goal in California, by pledging per mile?</p>
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><div>
+<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top"><div>
 <div class="col-xs-7" style="max-width: 50rem;">
 <b>Amount Pledged Per Mile:</b><br />
 <input type="range" oninput="permile.value=rangeInput.value; amount.value=Math.round(rangeInput.value * 270.43)" id="slider" value="0.05" min="0.01" max="20" step="0.01" name="rangeInput" style="width: 70%; display:inline-block;"></input>
@@ -99,10 +99,10 @@
 </div>
 <div class="col-xs-12">
 Donate this amount:<br /><br />
-<input type="hidden" name="cmd" value="_donations"><input type="hidden" name="business" value=""><input type="hidden" name="item_name" value="Donation to RunTheNation, counting towards California"><input type="hidden" name="state" value="california"><input type="hidden" name="currency_code" value="USD"><input type="hidden" name="tax" value="0"><input alt="PayPal - The safer, easier way to pay online!" name="submit" src="https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_pp_142x27.png" type="image" /><img src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" alt="" width="1" height="1" border="0" />
+<input type="hidden" name="cmd" value="_donations"><input type="hidden" name="business" value="info@dreamchaserevents.com"><input type="hidden" name="item_name" value="Donation to RunTheNation, counting towards California"><input type="hidden" name="notify_url" value="http://runthenation.org/donate_notify.php"><input type="hidden" name="state" value="california"><input type="hidden" name="currency_code" value="USD"><input type="hidden" name="tax" value="0"><input alt="PayPal - The safer, easier way to pay online!" name="submit" src="https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_pp_142x27.png" type="image" /><img src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" alt="" width="1" height="1" border="0" />
 </div>
-
-</div></form>
+</form>
+</div>
 
         </div>
       </div>
