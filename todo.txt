@@ -1,10 +1,8 @@
 Things todo:
 
 make sure db code works with dbdetails.php
-Link in state donation pages
 get state maps in place
 state donation page styles moved to stylesheet
-Create overall states fundraising pages
 move to mysqli
 Put back in day number
 blog post forward and back links with styling(color) preserved
