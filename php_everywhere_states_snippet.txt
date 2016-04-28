@@ -1,0 +1,60 @@
+<?php
+include_once('/home/dreamc25/public_html/runthenation.org/functions.php' );
+if($instance=="1")
+{
+echo getTotalStateDonations("Arizona");
+}
+elseif($instance=="2")
+{
+echo getTotalStateDonations("California");
+}
+elseif($instance=="3")
+{
+echo getTotalStateDonations("Illinois");
+}
+elseif($instance=="4")
+{
+echo getTotalStateDonations("Indiana");
+}
+elseif($instance=="5")
+{
+echo getTotalStateDonations("Kansas");
+}
+elseif($instance=="6")
+{
+echo getTotalStateDonations("Missouri");
+}
+elseif($instance=="7")
+{
+echo getTotalStateDonations("New Jersey");
+}
+elseif($instance=="8")
+{
+echo getTotalStateDonations("New Mexico");
+}
+elseif($instance=="9")
+{
+echo getTotalStateDonations("New York");
+}
+elseif($instance=="10")
+{
+echo getTotalStateDonations("Ohio");
+}
+elseif($instance=="11")
+{
+echo getTotalStateDonations("Oklahoma");
+}
+elseif($instance=="12")
+{
+echo getTotalStateDonations("Pennsylvania");
+}
+elseif($instance=="13")
+{
+echo getTotalStateDonations("Texas");
+}
+elseif($instance=="14")
+{
+echo getTotalStateDonations("West Virginia");
+}
+?>
+
